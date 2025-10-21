@@ -145,12 +145,12 @@
         /* Estilos para los requisitos de contraseña */
         .requirement-met {
             color: green;
-            list-style-type: '✅ ';
+            list-style-type: '';
         }
         
         .requirement-not-met {
             color: red;
-            list-style-type: '❌ ';
+            list-style-type: '';
         }
     </style>
 </head>
@@ -211,8 +211,8 @@
         </form>
         
         <div class="back-link">
-            <!-- 🔥 ACTUALIZADO: Ruta del sistema -->
-            <a href="/sistema/public/index.php?route=inicio">← Volver al Inicio</a>
+            
+            <a href="/sistema/public/inicio">← Volver al Inicio</a>
         </div>
     </div>
 
@@ -332,8 +332,8 @@
             if (!userId) {
                 showAlert('Error: No se encontró la sesión del usuario. Por favor, inicie sesión nuevamente.', 'error');
                 setTimeout(() => {
-                    // 🔥 ACTUALIZADO: Ruta del sistema
-                    window.location.href = '/sistema/public/index.php?route=login';
+                    
+                    window.location.href = '/sistema/public/login';
                 }, 3000);
                 return;
             }
@@ -364,7 +364,7 @@
                     password_actual: currentPassword
                 });
                 
-                // 🔥 ACTUALIZADO: Ruta del sistema y endpoint
+                
                 const response = await fetch('/sistema/public/index.php?route=auth&caso=cambiar-password-dashboard', {
                     method: 'POST',
                     headers: {
@@ -381,14 +381,14 @@
                 console.log("Respuesta del servidor:", result);
                 
                 if (result.status === '200') {
-                    showAlert('✅ Contraseña cambiada exitosamente', 'success');
+                    showAlert('Contraseña cambiada exitosamente', 'success');
                     // Limpiar formulario
                     document.getElementById('changePasswordForm').reset();
                     document.getElementById('passwordRequirements').style.display = 'none';
                     
                     setTimeout(() => {
-                        // 🔥 ACTUALIZADO: Ruta del sistema
-                        window.location.href = '/sistema/public/index.php?route=inicio';
+                        
+                        window.location.href = '/sistema/public/inicio';
                     }, 2000);
                 } else {
                     showAlert('Error: ' + result.message, 'error');
@@ -406,8 +406,8 @@
         if (!userId) {
             showAlert('Sesión no encontrada. Redirigiendo al login...', 'error');
             setTimeout(() => {
-                // 🔥 ACTUALIZADO: Ruta del sistema
-                window.location.href = '/sistema/public/index.php?route=login';
+                
+                window.location.href = '/sistema/public/login';
             }, 2000);
         }
         
@@ -420,7 +420,7 @@
             }
             .requirement-not-met {
                 color: red;
-                list-style-type: '❌ ';
+                list-style-type: '';
             }
             #passwordRequirements ul {
                 list-style: none;

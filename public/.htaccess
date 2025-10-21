@@ -1,4 +1,10 @@
+# Activar el motor de reescritura de URL
 RewriteEngine On
+
+# Establecer la base para las reescrituras
+RewriteBase /sistema/public/
+
+# Opciones del servidor
 Options All -Indexes
 
 # Proteger el archivo .htaccess
@@ -7,8 +13,14 @@ Options All -Indexes
     deny from all
 </files>
 
-# Redirigir si llegan a /public/ sin parámetros
-RewriteRule ^$ index.php?route=login [L]
+# Camuflar archivos PHP como .nas (opcional)
+AddType application/x-httpd-php .nas
 
-# URL amigable para todas las rutas
-RewriteRule ^([0-9a-zA-Z-_@./]+)$ index.php?route=$1 [QSA,L]
+# REGLA PRINCIPAL CORREGIDA: Capturar rutas amigables
+# Esta regla redirige todas las rutas a index.php?route=...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9\-_]+)/?$ index.php?route=$1 [L,QSA]
+
+# Redirección para API (mantener si la necesitas)
+RewriteRule ^laboratorio/(.*)$ ../src/routes/laboratorio.php?route=$1 [L,QSA]

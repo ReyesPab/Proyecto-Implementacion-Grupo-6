@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title><?= $title ?? 'Gestión Clínicas' ?></title>
+  <title><?= $title ?? 'Tesoro de MIMI' ?></title>
   
   <!-- Favicons -->
-  <link href="/sistema/src/Views/assets/img/favicon.png" rel="icon">
+  <link href="/sistema\src\Views\assets\img/favicon.png" rel="icon">
   
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -20,6 +20,12 @@
   <link href="/sistema/src/Views/assets/css/style.css" rel="stylesheet">
   <!-- Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <!-- Vendor JS Files -->
+  <script src="/sistema/src/Views/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="/sistema/src/Views/assets/js/main.js"></script>
+
 </head>
 
 <body>
@@ -29,7 +35,7 @@
       <a href="/sistema/public/dashboard" class="logo d-flex align-items-center">
         <img src="/sistema/src/Views/assets/img/logo.png" alt="">
         
-        <span class="d-none d-lg-block">Gestión Clínicas</span>
+        <span class="d-none d-lg-block">Tesoro de MIMI</span>
       </a>
     </div>
     
@@ -53,7 +59,7 @@
       <!-- Aquí se cargarán las notificaciones dinámicamente -->
     </div>
     <li class="dropdown-footer">
-      <a href="/rosquilla/public/notificaciones">Ver todas las notificaciones</a>
+      <a href="/sistema/public/notificaciones">Ver todas las notificaciones</a>
     </li>
   </ul>
 </li>
@@ -67,7 +73,7 @@
           
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="/rosquilla/public/datos">
+              <a class="dropdown-item d-flex align-items-center" href="/sistema/public/datos">
                 <i class="bi bi-person"></i>
                 <span>Mi Perfil</span>
               </a>
@@ -76,7 +82,7 @@
               <hr class="dropdown-divider">
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center"  href="index.php?route=login">
+              <a class="dropdown-item d-flex align-items-center"  href='/sistema/public/index.php?route=login'>
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Cerrar Sesión</span>
               </a>

@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Usuarios - Sistema</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container-fluid mt-4">
+<?php require_once 'partials/header.php'; ?>
+<?php require_once 'partials/sidebar.php'; ?>
+
+
+
+<main id="main" class="main">
+    <div class="pagetitle">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="h2">Gestión de Usuarios</h1>
-            <a href="index.php?route=crear-usuario" class="btn btn-primary">+ Crear Usuario</a>
+            <a href='/sistema/public/crear-usuario' class="btn btn-primary">+ Crear Usuario</a>
         </div>
 
         <div class="card">
@@ -71,6 +67,7 @@
             </div>
         </div>
     </div>
+</main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -90,39 +87,39 @@
 
             async cargarUsuarios() {
     try {
-        console.log("🔍 Solicitando usuarios...");
+        console.log("Solicitando usuarios...");
         const response = await fetch('index.php?route=user&caso=listar');
         const data = await response.json();
         
-        console.log("📊 Respuesta completa:", data);
+        console.log(" Respuesta completa:", data);
         
         if (data.status === 200) {
-            console.log("✅ Usuarios recibidos:", data.data.usuarios);
+            console.log("Usuarios recibidos:", data.data.usuarios);
             if (data.data.usuarios && data.data.usuarios.length > 0) {
-                console.log("🔍 Primer usuario:", data.data.usuarios[0]);
-                console.log("🔍 Campos disponibles:", Object.keys(data.data.usuarios[0]));
+                console.log("Primer usuario:", data.data.usuarios[0]);
+                console.log("Campos disponibles:", Object.keys(data.data.usuarios[0]));
                 
                 // Debug: mostrar todos los campos con sus valores exactos
                 const primerUsuario = data.data.usuarios[0];
-                console.log("🎯 VALORES EXACTOS de campos:");
+                console.log("VALORES EXACTOS de campos:");
                 Object.keys(primerUsuario).forEach(key => {
                     console.log(`   ${key}: "${primerUsuario[key]}" (tipo: ${typeof primerUsuario[key]})`);
                 });
             }
             this.inicializarTabla(data.data.usuarios);
         } else {
-            console.error('❌ Error al cargar usuarios:', data.message);
+            console.error('Error al cargar usuarios:', data.message);
         }
     } catch (error) {
-        console.error('💥 Error cargando usuarios:', error);
+        console.error('Error cargando usuarios:', error);
     }
 }
 
             inicializarTabla(usuarios) {
-    console.log("🎯 Inicializando tabla con usuarios:", usuarios);
+    console.log("Inicializando tabla con usuarios:", usuarios);
     
     if (!usuarios || usuarios.length === 0) {
-        console.log("⚠️ No hay usuarios para mostrar");
+        console.log("No hay usuarios para mostrar");
         $('#tablaUsuarios').DataTable({
             data: [],
             language: {
@@ -231,7 +228,7 @@
         responsive: true
     });
     
-    console.log("✅ Tabla inicializada correctamente");
+    console.log("Tabla inicializada correctamente");
 }
 
             configurarEventos() {
@@ -332,5 +329,3 @@
         // Instancia global
         const gestionUsuarios = new GestionUsuarios();
     </script>
-</body>
-</html>

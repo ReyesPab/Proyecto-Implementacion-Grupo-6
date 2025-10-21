@@ -12,32 +12,11 @@ if (isset($_GET['route'])) {
     $lista = ['auth', 'user', 'login', 'dashboard', 'recuperar-password', 'gestion-usuarios', 'crear-usuario', 'configurar-preguntas', 'inicio', 'cambiar-password' ];
     $caso = filter_input(INPUT_GET, "caso");
 
-       // Ruta para cambiar-password (VISTA)
-    if ($url[0] === 'crear-usuario' && empty($caso)) {
-        $file = dirname(__DIR__) . '/src/Views/crear-usuario.php';
-        if (file_exists($file) && is_readable($file)) {
-            require $file;
-            exit;
-        } else {
-            echo json_encode(responseHTTP::status400('Archivo de vista no encontrado o no legible'));
-            exit;
-        }
-    }
+    // CAMBIO IMPORTANTE: Usar $url[0] directamente en lugar de explode
+    $rutaActual = $_GET['route']; // Esto ya contiene la ruta completa
 
-    // Ruta para cambiar-password (VISTA)
-    if ($url[0] === 'cambiar-password' && empty($caso)) {
-        $file = dirname(__DIR__) . '/src/Views/cambiar-password.php';
-        if (file_exists($file) && is_readable($file)) {
-            require $file;
-            exit;
-        } else {
-            echo json_encode(responseHTTP::status400('Archivo de vista no encontrado o no legible'));
-            exit;
-        }
-    }
-
-    // Ruta para login (VISTA)
-    if ($url[0] === 'login' && empty($caso)) {
+      // Ruta para login (VISTA)
+    if ($rutaActual === 'login' && empty($caso)) {
         $file = dirname(__DIR__) . '/src/Views/login.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
@@ -49,7 +28,7 @@ if (isset($_GET['route'])) {
     }
 
     // Ruta para inicio (VISTA)
-    if ($url[0] === 'inicio' && empty($caso)) {
+    if ($rutaActual === 'inicio' && empty($caso)) {
         $file = dirname(__DIR__) . '/src/Views/inicio.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
@@ -60,9 +39,33 @@ if (isset($_GET['route'])) {
         }
     }
 
-    // Ruta para configurar-preguntas (VISTA)
-    if ($url[0] === 'configurar-preguntas' && empty($caso)) {
-        $file = dirname(__DIR__) . '/src/Views/configurar-preguntas.php';
+    // Ruta para cambiar-password (VISTA)
+    if ($rutaActual === 'cambiar-password' && empty($caso)) {
+        $file = dirname(__DIR__) . '/src/Views/cambiar-password.php';
+        if (file_exists($file) && is_readable($file)) {
+            require $file;
+            exit;
+        } else {
+            echo json_encode(responseHTTP::status400('Archivo de vista no encontrado o no legible'));
+            exit;
+        }
+    }
+
+    // Ruta para gestion-usuarios (VISTA)
+    if ($rutaActual === 'gestion-usuarios' && empty($caso)) {
+        $file = dirname(__DIR__) . '/src/Views/gestion-usuarios.php';
+        if (file_exists($file) && is_readable($file)) {
+            require $file;
+            exit;
+        } else {
+            echo json_encode(responseHTTP::status400('Archivo de vista no encontrado o no legible'));
+            exit;
+        }
+    }
+
+    // Ruta para crear-usuario (VISTA)
+    if ($rutaActual === 'crear-usuario' && empty($caso)) {
+        $file = dirname(__DIR__) . '/src/Views/crear-usuario.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
             exit;
@@ -73,7 +76,7 @@ if (isset($_GET['route'])) {
     }
 
     // Ruta para dashboard (VISTA)
-    if ($url[0] === 'dashboard' && empty($caso)) {
+    if ($rutaActual === 'dashboard' && empty($caso)) {
         $file = dirname(__DIR__) . '/src/Views/dashboard.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
@@ -85,7 +88,7 @@ if (isset($_GET['route'])) {
     }
 
     // Ruta para recuperar-password (VISTA)
-    if ($url[0] === 'recuperar-password' && empty($caso)) {
+    if ($rutaActual === 'recuperar-password' && empty($caso)) {
         $file = dirname(__DIR__) . '/src/Views/recuperar-password.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
@@ -96,9 +99,9 @@ if (isset($_GET['route'])) {
         }
     }
 
-    // Ruta para gestion-usuarios (VISTA)
-    if ($url[0] === 'gestion-usuarios' && empty($caso)) {
-        $file = dirname(__DIR__) . '/src/Views/gestion-usuarios.php';
+    // Ruta para configurar-preguntas (VISTA)
+    if ($rutaActual === 'configurar-preguntas' && empty($caso)) {
+        $file = dirname(__DIR__) . '/src/Views/configurar-preguntas.php';
         if (file_exists($file) && is_readable($file)) {
             require $file;
             exit;
@@ -108,26 +111,27 @@ if (isset($_GET['route'])) {
         }
     }
 
-    // ELIMINAR ESTA SECCIÓN DUPLICADA (LÍNEAS 71-80)
-    // NO DEBE ESTAR AQUÍ OTRA VEZ LA CONDICIÓN DE LOGIN
-
-    // Verificar si la ruta está permitida
-    if (!in_array($url[0], $lista)) {
+    // Verificar si la ruta está permitida (para APIs)
+    if (!in_array($rutaActual, $lista)) {
         echo json_encode(responseHTTP::status400('Ruta no permitida'));
         exit;
     }
 
-    // Cargar archivo de ruta API
-    $file = dirname(__DIR__) . '/src/routes/' . $url[0] . '.php';
-    
-    if (!file_exists($file) || !is_readable($file)) {
-        echo json_encode(responseHTTP::status400('Archivo de ruta no encontrado o no legible'));
+    // Cargar archivo de ruta API (solo para rutas de API como 'auth', 'user')
+    if (in_array($rutaActual, ['auth', 'user'])) {
+        $file = dirname(__DIR__) . '/src/routes/' . $rutaActual . '.php';
+        
+        if (!file_exists($file) || !is_readable($file)) {
+            echo json_encode(responseHTTP::status400('Archivo de ruta no encontrado o no legible'));
+            exit;
+        }
+
+        require $file;
         exit;
     }
 
-    require $file;
-    exit;
 } else {
-    header('Location: index.php?route=login');
+    // Redirección por defecto
+    header('Location: /sistema/public/login');
     exit;
 }

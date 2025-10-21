@@ -608,12 +608,12 @@
                         window.location.href = '/sistema/public/index.php?route=inicio';
                     }, 2000);
                 } else {
-                    console.error("❌ ERROR CAMBIANDO CONTRASEÑA:", resultPassword);
+                    console.error(" ERROR CAMBIANDO CONTRASEÑA:", resultPassword);
                     showAlert('Error en contraseña: ' + (resultPassword.message || 'Error desconocido'), 'error');
                 }
                 
             } catch (error) {
-                console.error('💥 ERROR DE CONEXIÓN:', error);
+                console.error(' ERROR DE CONEXIÓN:', error);
                 showAlert('Error de conexión. Intente nuevamente.', 'error');
             } finally {
                 showLoading(false);

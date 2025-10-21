@@ -9,8 +9,7 @@ use PDO;
 
 class authModel {
     
-    // Verificar credenciales de usuario usando procedimiento almacenado
-    // 🔥 MÉTODO ACTUALIZADO: Verificar usuario con validación de expiración
+    // Verificar credenciales de usuario usando procedimiento almacenado y Verificar usuario con validación de expiración
 public static function verificarUsuario($usuario, $password) {
     try {
         $con = connectionDB::getConnection();
@@ -36,7 +35,7 @@ public static function verificarUsuario($usuario, $password) {
             // Obtener datos completos del usuario
             $userData = self::obtenerDatosUsuarioCompletos($usuario);
             
-            // 🔥 VALIDAR SI LA CONTRASEÑA TEMPORAL ESTÁ EXPIRADA
+            // VALIDAR SI LA CONTRASEÑA TEMPORAL ESTÁ EXPIRADA
             if ($userData && $userData['RESETEO_CONTRASENA'] == 1 && $userData['FECHA_VENCIMIENTO']) {
                 $fechaExpiracion = new \DateTime($userData['FECHA_VENCIMIENTO']);
                 $fechaActual = new \DateTime();
@@ -154,7 +153,7 @@ public static function verificarUsuario($usuario, $password) {
         try {
             $con = connectionDB::getConnection();
             
-            error_log("🔧 Cambiando contraseña para usuario: " . $idUsuario);
+            error_log(" Cambiando contraseña para usuario: " . $idUsuario);
             
             if ($contraseñaActual) {
                 // Cambio normal de contraseña
@@ -186,16 +185,16 @@ public static function verificarUsuario($usuario, $password) {
             }
             
             if ($result && $result['STATUS'] === 'success') {
-                error_log("✅ Contraseña cambiada exitosamente para usuario: " . $idUsuario);
+                error_log(" Contraseña cambiada exitosamente para usuario: " . $idUsuario);
                 return ['success' => true, 'message' => $result['MESSAGE']];
             } else {
                 $errorMsg = $result['MESSAGE'] ?? 'Error en stored procedure';
-                error_log("❌ Error al cambiar contraseña: " . $errorMsg);
+                error_log(" Error al cambiar contraseña: " . $errorMsg);
                 return ['success' => false, 'message' => $errorMsg];
             }
             
         } catch (\PDOException $e) {
-            error_log("💥 Error en cambiarPassword: " . $e->getMessage());
+            error_log(" Error en cambiarPassword: " . $e->getMessage());
             return ['success' => false, 'message' => 'Error al cambiar la contraseña: ' . $e->getMessage()];
         }
     }
@@ -205,12 +204,12 @@ public static function verificarUsuario($usuario, $password) {
         try {
             $con = connectionDB::getConnection();
             
-            error_log("🔧 [DASHBOARD] Cambiando contraseña para usuario: " . $idUsuario);
+            error_log(" [DASHBOARD] Cambiando contraseña para usuario: " . $idUsuario);
             
             // Usar SP para cambio desde dashboard
             $sql = "CALL SP_CAMBIAR_PASSWORD_SIN_ENIE(:p_id_usuario, :p_password_actual, :p_nueva_password, :p_modificado_por)";
             
-            error_log("📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE");
+            error_log(" [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE");
             
             $query = $con->prepare($sql);
             $query->execute([
@@ -228,28 +227,27 @@ public static function verificarUsuario($usuario, $password) {
             }
             
             if ($result && $result['STATUS'] === 'success') {
-                error_log("✅ [DASHBOARD] Contraseña cambiada exitosamente");
+                error_log(" [DASHBOARD] Contraseña cambiada exitosamente");
                 return ['success' => true, 'message' => $result['MESSAGE']];
             } else {
                 $errorMsg = $result['MESSAGE'] ?? 'Error en stored procedure';
-                error_log("❌ [DASHBOARD] Error: " . $errorMsg);
+                error_log(" [DASHBOARD] Error: " . $errorMsg);
                 return ['success' => false, 'message' => $errorMsg];
             }
             
         } catch (\PDOException $e) {
-            error_log("💥 [DASHBOARD] Error PDO: " . $e->getMessage());
+            error_log(" [DASHBOARD] Error PDO: " . $e->getMessage());
             return ['success' => false, 'message' => 'Error al cambiar la contraseña: ' . $e->getMessage()];
         }
     }
 
     
     // Registrar en bitácora
-    // Registrar en bitácora - MÉTODO CORREGIDO
 public static function registrarBitacora($idUsuario, $accion, $descripcion) {
     try {
         $con = connectionDB::getConnection();
         
-        // ✅✅✅ INCLUIR LA COLUMNA FECHA QUE ES NOT NULL
+        // INCLUIR LA COLUMNA FECHA QUE ES NOT NULL
         $sql = "INSERT INTO TBL_MS_BITACORA (FECHA, ID_USUARIO, ACCION, DESCRIPCION, CREADO_POR) 
                 VALUES (NOW(), :id_usuario, :accion, :descripcion, :creado_por)";
         
@@ -261,10 +259,10 @@ public static function registrarBitacora($idUsuario, $accion, $descripcion) {
             'creado_por' => 'SISTEMA'
         ]);
         
-        error_log("📝 REGISTRADO EN BITÁCORA - Usuario: $idUsuario, Acción: $accion");
+        error_log(" REGISTRADO EN BITÁCORA - Usuario: $idUsuario, Acción: $accion");
         
     } catch (\PDOException $e) {
-        error_log("❌ ERROR en registrarBitacora: " . $e->getMessage());
+        error_log(" ERROR en registrarBitacora: " . $e->getMessage());
     }
 }
     
@@ -288,14 +286,12 @@ public static function registrarBitacora($idUsuario, $accion, $descripcion) {
         }
     }
 
-    // Verificar si usuario existe y obtener información para recuperación
-   // MÉTODO MEJORADO: Verificación directa sin stored procedure
-// MÉTODO CORREGIDO: Verificación que usa ESTADO_USUARIO
+    // Verificar si usuario existe y obtener información para recuperación  directa sin stored procedure
 public static function verificarUsuarioRecuperacion($usuario) {
     try {
         $con = connectionDB::getConnection();
         
-        error_log("🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: " . $usuario);
+        error_log(" BUSCANDO USUARIO PARA RECUPERACIÓN: " . $usuario);
         
         // CONSULTA CORREGIDA: usar ESTADO_USUARIO en lugar de ESTADO
         $sql = "SELECT 
@@ -314,9 +310,9 @@ public static function verificarUsuarioRecuperacion($usuario) {
         $userData = $query->fetch(PDO::FETCH_ASSOC);
         
         if ($userData) {
-            error_log("✅ USUARIO ENCONTRADO: " . $userData['USUARIO']);
-            error_log("📧 CORREO: " . $userData['CORREO_ELECTRONICO']);
-            error_log("🔰 ESTADO_USUARIO: " . $userData['ESTADO_USUARIO']);
+            error_log(" USUARIO ENCONTRADO: " . $userData['USUARIO']);
+            error_log(" CORREO: " . $userData['CORREO_ELECTRONICO']);
+            error_log(" ESTADO_USUARIO: " . $userData['ESTADO_USUARIO']);
             
             // Verificar si el usuario está activo (comparar con 'ACTIVO' en mayúsculas)
             if (strtoupper($userData['ESTADO_USUARIO']) !== 'ACTIVO') {
@@ -336,12 +332,12 @@ public static function verificarUsuarioRecuperacion($usuario) {
             
             return ['success' => true, 'user' => $userData];
         } else {
-            error_log("❌ USUARIO NO ENCONTRADO: " . $usuario);
+            error_log(" USUARIO NO ENCONTRADO: " . $usuario);
             return ['success' => false, 'message' => 'Usuario no encontrado'];
         }
         
     } catch (\PDOException $e) {
-        error_log("💥 ERROR en verificarUsuarioRecuperacion: " . $e->getMessage());
+        error_log(" ERROR en verificarUsuarioRecuperacion: " . $e->getMessage());
         return ['success' => false, 'message' => 'Error en el servidor: ' . $e->getMessage()];
     }
 }
@@ -349,20 +345,15 @@ public static function verificarUsuarioRecuperacion($usuario) {
     
 
     // Solicitar recuperación por correo
-   
-// 🔥 MÉTODO ACTUALIZADO: Con envío real de correo
-// 🔥 MÉTODO MEJORADO: Con mejor manejo de errores
-// 🔥 MÉTODO ACTUALIZADO: Mostrar contraseña si falla el correo
-// 🔥 MÉTODO ACTUALIZADO: Siempre mostrar contraseña temporal
 public static function solicitarRecuperacionCorreo($usuario, $contraseñaTemporal) {
     try {
         $con = connectionDB::getConnection();
         
-        // 🔥 AGREGAR ESTA CONFIGURACIÓN PARA MÚLTIPLES RESULTSETS
+        // AGREGAR ESTA CONFIGURACIÓN PARA MÚLTIPLES RESULTSETS
         $con->setAttribute(PDO::ATTR_EMULATE_PREPARES, true);
         
-        error_log("🔐 SOLICITANDO RECUPERACIÓN PARA: $usuario");
-        error_log("🔐 CONTRASEÑA TEMPORAL GENERADA: $contraseñaTemporal");
+        error_log(" SOLICITANDO RECUPERACIÓN PARA: $usuario");
+        error_log(" CONTRASEÑA TEMPORAL GENERADA: $contraseñaTemporal");
         
         // Usar el procedimiento con expiración
         $sql = "CALL SP_RECUPERACION_CORREO_CON_EXPIRACION(:usuario, :contrasena_temporal, :modificado_por)";
@@ -380,35 +371,34 @@ public static function solicitarRecuperacionCorreo($usuario, $contraseñaTempora
             // Continuar
         }
         
-        error_log("📊 RESULTADO DEL STORED PROCEDURE: " . print_r($result, true));
+        error_log(" RESULTADO DEL STORED PROCEDURE: " . print_r($result, true));
         
         if ($result && $result['STATUS'] === 'success') {
-            // 🔥 SIEMPRE DEVOLVER LA CONTRASEÑA EN LA RESPUESTA
+            // SIEMPRE DEVOLVER LA CONTRASEÑA EN LA RESPUESTA
             return [
                 'success' => true, 
                 'message' => 'Contraseña temporal generada exitosamente: ' . $contraseñaTemporal,
                 'correo' => $result['CORREO'],
                 'nombre_usuario' => $result['NOMBRE_USUARIO'],
                 'fecha_expiracion' => $result['FECHA_EXPIRACION'],
-                'password_temporal' => $contraseñaTemporal // 🔥 SIEMPRE INCLUIR
+                'password_temporal' => $contraseñaTemporal 
             ];
         } else {
             $errorMsg = $result['MESSAGE'] ?? 'Error desconocido en el procedimiento';
-            error_log("❌ ERROR EN STORED PROCEDURE: " . $errorMsg);
+            error_log(" ERROR EN STORED PROCEDURE: " . $errorMsg);
             return ['success' => false, 'message' => $errorMsg];
         }
         
     } catch (\PDOException $e) {
-        error_log("💥 ERROR PDO en solicitarRecuperacionCorreo: " . $e->getMessage());
+        error_log(" ERROR PDO en solicitarRecuperacionCorreo: " . $e->getMessage());
         return ['success' => false, 'message' => 'Error al procesar la solicitud: ' . $e->getMessage()];
     }
 }
 
-    // 🔥 NUEVO MÉTODO: Envío de correo con PHPMailer (Recomendado)
-// 🔥 MÉTODO MEJORADO: Con múltiples intentos y mejor manejo de errores
+    //  Envío de correo con PHPMailer 
 public static function enviarCorreoRecuperacion($correo, $nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion) {
     try {
-        error_log("🚀 INTENTANDO ENVIAR CORREO A: $correo");
+        error_log(" INTENTANDO ENVIAR CORREO A: $correo");
         
         // Intentar con PHPMailer primero si está disponible
         if (self::enviarConPHPMailer($correo, $nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion)) {
@@ -416,23 +406,22 @@ public static function enviarCorreoRecuperacion($correo, $nombreUsuario, $usuari
         }
         
         // Si PHPMailer no está disponible o falla, usar método básico
-        error_log("🔄 Intentando método mail() básico...");
+        error_log(" Intentando método mail() básico...");
         return self::enviarConMailBasico($correo, $nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion);
         
     } catch (\Exception $e) {
-        error_log("💥 ERROR en enviarCorreoRecuperacion: " . $e->getMessage());
+        error_log(" ERROR en enviarCorreoRecuperacion: " . $e->getMessage());
         return false;
     }
 }
 
-// 🔥 MÉTODO ALTERNATIVO: Envío con PHPMailer (Más confiable)
-// 🔥 MÉTODO CON PHPMailer (Recomendado)
+// Envío con PHPMailer
 private static function enviarConPHPMailer($correo, $nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion) {
     try {
         // Verificar si PHPMailer existe
         $phpmailerPath = __DIR__ . '/../../vendor/PHPMailer/src/PHPMailer.php';
         if (!file_exists($phpmailerPath)) {
-            error_log("📧 PHPMailer no encontrado en: $phpmailerPath");
+            error_log(" PHPMailer no encontrado en: $phpmailerPath");
             return false;
         }
         
@@ -473,16 +462,16 @@ private static function enviarConPHPMailer($correo, $nombreUsuario, $usuario, $p
         $mail->AltBody = self::crearCuerpoCorreoTexto($nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion);
         
         $mail->send();
-        error_log("✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: $correo");
+        error_log(" CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: $correo");
         return true;
         
     } catch (\Exception $e) {
-        error_log("❌ ERROR PHPMailer: " . $e->getMessage());
+        error_log(" ERROR PHPMailer: " . $e->getMessage());
         return false;
     }
 }
 
-// 🔥 MÉTODO CON mail() básico (Fallback)
+//  MÉTODO CON mail() básico (Fallback)
 private static function enviarConMailBasico($correo, $nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion) {
     try {
         $asunto = "Recuperación de Contraseña - Sistema Rosquilleria";
@@ -497,20 +486,20 @@ private static function enviarConMailBasico($correo, $nombreUsuario, $usuario, $
         $enviado = mail($correo, $asunto, $mensaje, $headers);
         
         if ($enviado) {
-            error_log("✅ Correo enviado via mail() a: $correo");
+            error_log(" Correo enviado via mail() a: $correo");
             return true;
         } else {
-            error_log("❌ Falló mail() para: $correo");
+            error_log(" Falló mail() para: $correo");
             return false;
         }
         
     } catch (\Exception $e) {
-        error_log("💥 Error en mail básico: " . $e->getMessage());
+        error_log(" Error en mail básico: " . $e->getMessage());
         return false;
     }
 }
 
-// 🔥 CREAR CUERPO HTML MEJORADO
+// CREAR CUERPO HTML MEJORADO
 private static function crearCuerpoCorreoHTML($nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion) {
     return "
     <!DOCTYPE html>
@@ -567,7 +556,7 @@ private static function crearCuerpoCorreoHTML($nombreUsuario, $usuario, $passwor
     ";
 }
 
-// 🔥 CREAR CUERPO TEXTO PLANO
+//CREAR CUERPO TEXTO PLANO
 private static function crearCuerpoCorreoTexto($nombreUsuario, $usuario, $passwordTemporal, $fechaExpiracion) {
     return "
     Recuperación de Contraseña - Sistema Rosquilleria
@@ -595,9 +584,8 @@ private static function crearCuerpoCorreoTexto($nombreUsuario, $usuario, $passwo
 }
 
     // Generar contraseña temporal robusta
-    // 🔥 MÉTODO ALTERNATIVO: Más robusto para garantizar requisitos
 public static function generarContraseñaTemporal() {
-    $minLongitud = 8; // 🔥 Mínimo 8 para ser robusta
+    $minLongitud = 8; 
     $maxLongitud = 10;
     
     $longitud = rand($minLongitud, $maxLongitud);
@@ -608,7 +596,7 @@ public static function generarContraseñaTemporal() {
     $numeros = '0123456789';
     $especiales = '!@#$%^&*';
     
-    // 🔥 GARANTIZAR al menos uno de cada tipo
+    // GARANTIZAR al menos uno de cada tipo
     $partes = [
         $minusculas[rand(0, strlen($minusculas) - 1)], // Minúscula
         $mayusculas[rand(0, strlen($mayusculas) - 1)], // Mayúscula
@@ -616,23 +604,23 @@ public static function generarContraseñaTemporal() {
         $especiales[rand(0, strlen($especiales) - 1)]  // Especial
     ];
     
-    // 🔥 Completar con caracteres aleatorios
+    // Completar con caracteres aleatorios
     $todosCaracteres = $minusculas . $mayusculas . $numeros . $especiales;
     while (count($partes) < $longitud) {
         $partes[] = $todosCaracteres[rand(0, strlen($todosCaracteres) - 1)];
     }
     
-    // 🔥 Mezclar bien y convertir a string
+    //  Mezclar bien y convertir a string
     shuffle($partes);
     $contraseña = implode('', $partes);
     
-    // 🔥 VERIFICACIÓN EXTRA: Asegurar que cumple todos los requisitos
+    //  VERIFICACIÓN EXTRA: Asegurar que cumple todos los requisitos
     $tieneMinuscula = preg_match('/[a-z]/', $contraseña);
     $tieneMayuscula = preg_match('/[A-Z]/', $contraseña);
     $tieneNumero = preg_match('/[0-9]/', $contraseña);
     $tieneEspecial = preg_match('/[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/', $contraseña);
     
-    // 🔥 Si no cumple, regenerar (máximo 10 intentos)
+    // Si no cumple, regenerar (máximo 10 intentos)
     $intentos = 0;
     while ((!$tieneMinuscula || !$tieneMayuscula || !$tieneNumero || !$tieneEspecial) && $intentos < 10) {
         // Regenerar
@@ -656,7 +644,7 @@ public static function debugRegistrarBitacora($idUsuario, $accion, $descripcion)
     try {
         $con = connectionDB::getConnection();
         
-        error_log("🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=$idUsuario, Acción=$accion");
+        error_log(" DEBUG BITÁCORA - Intentando registrar: Usuario=$idUsuario, Acción=$accion");
         
         $sql = "INSERT INTO TBL_MS_BITACORA (FECHA, ID_USUARIO, ACCION, DESCRIPCION, CREADO_POR) 
                 VALUES (NOW(), :id_usuario, :accion, :descripcion, :creado_por)";
@@ -671,15 +659,15 @@ public static function debugRegistrarBitacora($idUsuario, $accion, $descripcion)
         
         if ($result) {
             $lastId = $con->lastInsertId();
-            error_log("✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: $lastId");
+            error_log(" DEBUG BITÁCORA - REGISTRO EXITOSO. ID: $lastId");
             return true;
         } else {
-            error_log("❌ DEBUG BITÁCORA - ERROR EN EJECUCIÓN");
+            error_log(" DEBUG BITÁCORA - ERROR EN EJECUCIÓN");
             return false;
         }
         
     } catch (\PDOException $e) {
-        error_log("💥 DEBUG BITÁCORA - EXCEPCIÓN: " . $e->getMessage());
+        error_log(" DEBUG BITÁCORA - EXCEPCIÓN: " . $e->getMessage());
         return false;
     }
 }

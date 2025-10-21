@@ -92,20 +92,20 @@ body {
 
  
   <li class="nav-item">
-      <a class="nav-link" href='/sistema/public/index.php?route=inicio'>
+    <a class="nav-link" href='/sistema/public/inicio'>
         <i class="bi bi-grid"></i>
-        <span>Admin</span>
-      </a>
-    </li>
+        <span>Inicio</span>
+    </a>
+</li>
   
 
    
     <li class="nav-item">
-      <a class="nav-link" href='/sistema/public/index.php?route=inicio'> 
+    <a class="nav-link" href='/sistema/public/dashboard'>
         <i class="bi bi-grid"></i>
         <span>Dashboard</span>
-      </a>
-    </li>
+    </a>
+</li>
      
 
   
@@ -116,19 +116,25 @@ body {
       <ul id="usuarios-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
 
       <li>
-          <a href='/sistema/public/index.php?route=cambiar-password'>
-            <i class="bi bi-circle"></i><span>Registrados</span>
-          </a>
-        </li>
+    <a href='/sistema/public/gestion-usuarios'>
+        <i class="bi bi-circle"></i><span>Registrados</span>
+    </a>
+</li>
+
+      <li>
+    <a href='/sistema/public/cambiar-password'>
+        <i class="bi bi-circle"></i><span>Cambiar Contraseña</span>
+    </a>
+</li>
          
         <li>
-          <a href='/sistema/public/index.php?route=crear-usuario'>
-            <i class="bi bi-circle"></i><span>Nuevo Usuario</span>
-          </a>
-        </li>
+    <a href='/sistema/public/crear-usuario'>
+        <i class="bi bi-circle"></i><span>Nuevo Usuario</span>
+    </a>
+</li>
 
         <li>
-          <a href="/rosquilla/public/usuarios_asignar">
+          <a href='/sistema/public/usuarios_asignar'>
             <i class="bi bi-circle"></i><span>Permisos</span>
           </a>
         </li>
@@ -143,7 +149,7 @@ body {
       </a>
       <ul id="servicios-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li>
-          <a href="/rosquilla/public/servicios">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Reportes de Compras</span>
           </a>
         </li> 
@@ -159,7 +165,7 @@ body {
 
       
       <li>
-          <a href="/rosquilla/public/laboratorio">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Reportes de Ventas</span>
           </a>
         </li>
@@ -167,7 +173,7 @@ body {
 
         
         <li>
-          <a href="/gestion/public/lista_laboratorios">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Listar Departamentos</span>
           </a>
         </li>
@@ -175,7 +181,7 @@ body {
 
         
         <li>
-          <a href="/gestion/public/lista_labs">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Inventarios </span>
           </a>
         </li>
@@ -189,28 +195,28 @@ body {
       </a>
       <ul id="citas-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
          
-          <a href="/gestion/public/lista_citas">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Inventarios Materia Prima</span>
           </a>
         </li>
          
  
         <li>
-          <a href="/rosquilla/public/crear_citas">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Otro</span>
           </a>
         </li>
       
 
         <li>
-          <a href="/rosquilla/public/crear_mi_cita">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Otro</span>
           </a>
         </li>
 
          
         <li>
-          <a href="/gestion/public/miscitas">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Otro</span>
           </a>
         </li> 
@@ -226,13 +232,14 @@ body {
         <i class="bi bi-file-earmark-medical"></i><span>Eventos</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="historiales-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+
         <li>
-          <a href="/gestion/public/lista_historial_medico">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Listar Historiales</span>
           </a>
         </li>
         <li>
-          <a href="/gestion/public/crear_historial_medico">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Crear Historial</span>
           </a>
         </li>
@@ -248,12 +255,12 @@ body {
       </a>
       <ul id="recetas-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li>
-          <a href="/gestion/public/lista_recetas">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Listar Recetas</span>
           </a>
         </li>
         <li>
-          <a href="/gestion/public/crear_receta">
+          <a href='/sistema/public/crear-usuario'>
             <i class="bi bi-circle"></i><span>Crear Receta</span>
           </a>
         </li>

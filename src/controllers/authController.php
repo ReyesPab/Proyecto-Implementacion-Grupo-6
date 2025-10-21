@@ -16,8 +16,8 @@ class authController {
         $this->method = $method;
         $this->data = Security::sanitizeInput($data);
         
-        // ✅ DIAGNÓSTICO TEMPORAL - SOLO UNA VEZ
-        error_log("🎯 AUTH CONTROLLER INICIADO - Método: $method");
+        // DIAGNÓSTICO TEMPORAL - SOLO UNA VEZ
+        error_log(" AUTH CONTROLLER INICIADO - Método: $method");
         
         // Test de bitácora - SOLO PARA DIAGNÓSTICO
         authModel::debugRegistrarBitacora(1, 'TEST_DIAGNOSTICO', 'Diagnóstico de bitácora desde authController');
@@ -227,12 +227,12 @@ class authController {
         $usuario = strtoupper(trim($this->data['usuario']));
         $metodo = $this->data['metodo'];
         
-        error_log("🎯 SOLICITUD RECUPERACIÓN - Usuario: $usuario, Método: $metodo");
+        error_log(" SOLICITUD RECUPERACIÓN - Usuario: $usuario, Método: $metodo");
         
         // Verificar si el usuario existe
         $usuarioExiste = authModel::verificarUsuarioRecuperacion($usuario);
         
-        error_log("📊 RESULTADO verificarUsuarioRecuperacion: " . print_r($usuarioExiste, true));
+        error_log("RESULTADO verificarUsuarioRecuperacion: " . print_r($usuarioExiste, true));
         
         if (!$usuarioExiste['success']) {
             echo json_encode(responseHTTP::status404($usuarioExiste['message']));
@@ -265,13 +265,13 @@ class authController {
         // Generar contraseña temporal
         $contraseñaTemporal = authModel::generarContraseñaTemporal();
         
-        error_log("🔐 CONTRASEÑA TEMPORAL PARA $usuario: $contraseñaTemporal");
+        error_log("CONTRASEÑA TEMPORAL PARA $usuario: $contraseñaTemporal");
         
         // Solicitar recuperación por correo
         $result = authModel::solicitarRecuperacionCorreo($usuario, $contraseñaTemporal);
         
         if ($result['success']) {
-            // 🔥 USAR EmailService para enviar el correo
+            // USAR EmailService para enviar el correo
             $correoEnviado = \App\config\EmailService::enviarCorreoRecuperacion(
                 $result['correo'],
                 $result['nombre_usuario'], 
@@ -321,12 +321,12 @@ class authController {
             }
             
         } else {
-            error_log("❌ ERROR EN recuperarPorCorreo: " . $result['message']);
+            error_log(" ERROR EN recuperarPorCorreo: " . $result['message']);
             echo json_encode(responseHTTP::status500($result['message']));
         }
         
     } catch (\Exception $e) {
-        error_log("💥 EXCEPCIÓN EN recuperarPorCorreo: " . $e->getMessage());
+        error_log(" EXCEPCIÓN EN recuperarPorCorreo: " . $e->getMessage());
         echo json_encode(responseHTTP::status500('Error interno del servidor: ' . $e->getMessage()));
     }
 }

@@ -95,7 +95,7 @@
             padding: 0.75rem;
             background: #667eea;
             color: white;
-            border: none;
+            border: noe;
             border-radius: 5px;
             font-size: 1rem;
             cursor: pointer;
@@ -151,29 +151,6 @@
             margin: 1rem 0;
             color: #667eea;
         }
-
-        .password-requirements {
-            background: #f8f9fa;
-            border: 1px solid #e9ecef;
-            border-radius: 5px;
-            padding: 0.75rem;
-            margin-top: 0.5rem;
-            font-size: 0.8rem;
-            color: #666;
-        }
-
-        .password-requirements ul {
-            margin: 0;
-            padding-left: 1rem;
-        }
-
-        .requirement-met {
-            color: #28a745;
-        }
-
-        .requirement-not-met {
-            color: #dc3545;
-        }
     </style>
 </head>
 <body>
@@ -199,22 +176,10 @@
                 <div class="input-icon password-container">
                     <span class="icon">🔒</span>
                     <input type="password" id="password" name="password" required 
-                           maxlength="10" placeholder="Ingrese su contraseña"
-                           oninput="validarPasswordEnTiempoReal(this.value)">
+                           maxlength="10" placeholder="Ingrese su contraseña">
                     <button type="button" class="toggle-password" onclick="togglePassword()">
                         👁️
                     </button>
-                </div>
-                <div id="passwordRequirements" class="password-requirements" style="display: none;">
-                    <strong>Requisitos de contraseña:</strong>
-                    <ul>
-                        <li id="reqLength">Mínimo 5 caracteres, máximo 10</li>
-                        <li id="reqUpper">Al menos una mayúscula</li>
-                        <li id="reqLower">Al menos una minúscula</li>
-                        <li id="reqNumber">Al menos un número</li>
-                        <li id="reqSpecial">Al menos un carácter especial</li>
-                        <li id="reqNoSpaces">Sin espacios</li>
-                    </ul>
                 </div>
             </div>
             
@@ -222,7 +187,7 @@
         </form>
         
         <div class="links">
-            <a href="index.php?route=recuperar-password">¿Olvidó su contraseña?</a>
+            <a href="/sistema/public/recuperar-password">¿Olvidó su contraseña?</a>
         </div>
     </div>
 
@@ -267,35 +232,6 @@
             loading.style.display = 'none';
             submitBtn.disabled = false;
             submitBtn.textContent = 'Ingresar';
-        }
-    }
-
-    function validarPasswordEnTiempoReal(password) {
-        const requirements = document.getElementById('passwordRequirements');
-        
-        if (password.length > 0) {
-            requirements.style.display = 'block';
-            
-            // Validar cada requisito
-            document.getElementById('reqLength').className = 
-                (password.length >= 5 && password.length <= 10) ? 'requirement-met' : 'requirement-not-met';
-            
-            document.getElementById('reqUpper').className = 
-                /[A-Z]/.test(password) ? 'requirement-met' : 'requirement-not-met';
-            
-            document.getElementById('reqLower').className = 
-                /[a-z]/.test(password) ? 'requirement-met' : 'requirement-not-met';
-            
-            document.getElementById('reqNumber').className = 
-                /[0-9]/.test(password) ? 'requirement-met' : 'requirement-not-met';
-            
-            document.getElementById('reqSpecial').className = 
-                /[!@#$%^&*()\-_=+{};:,<.>]/.test(password) ? 'requirement-met' : 'requirement-not-met';
-            
-            document.getElementById('reqNoSpaces').className = 
-                !/\s/.test(password) ? 'requirement-met' : 'requirement-not-met';
-        } else {
-            requirements.style.display = 'none';
         }
     }
 
@@ -464,23 +400,32 @@
                 }
                 
                 setTimeout(() => {
-    ocultarModal2FA();
-    
-    if (result.data && result.data.data) {
-        const userData = result.data.data;
-        
-        console.log("=== 🔍 DEBUG 2FA COMPLETO ===");
-        console.log("📊 userData COMPLETO:", userData);
-        
-        // 🔥 CAMBIO AQUÍ: Redirigir siempre a inicio sin importar el estado
-        console.log("✅ VERIFICACIÓN 2FA EXITOSA - Redirigiendo a inicio");
-        window.location.href = '/sistema/public/index.php?route=inicio';
-        
-    } else {
-        console.log("❌ No hay datos de usuario - Redirigiendo a inicio");
-        window.location.href = '/sistema/public/index.php?route=inicio';
-    }
-}, 1500);
+                    ocultarModal2FA();
+                    
+                    if (result.data && result.data.data) {
+                        const userData = result.data.data;
+                        
+                        console.log("===  DEBUG 2FA COMPLETO ===");
+                        console.log(" userData COMPLETO:", userData);
+                        
+                        // Verificar PRIMER_INGRESO en lugar de ESTADO
+                        const primerIngreso = userData.primer_ingreso;
+                        console.log(" PRIMER_INGRESO encontrado:", primerIngreso);
+                        
+                        if (primerIngreso === 0 || primerIngreso === false) {
+                            console.log(" USUARIO CON PRIMER INGRESO - Redirigiendo a cambiar contraseña");
+                            showAlert('Primer ingreso detectado. Debe cambiar su contraseña.', 'success');
+                            window.location.href = '/sistema/public/cambiar-password';
+                        } else {
+                            console.log(" USUARIO ACTIVO - Redirigiendo a inicio");
+                            window.location.href = '/sistema/public/inicio';
+                        }
+                        
+                    } else {
+                        console.log(" No hay datos de usuario - Redirigiendo a inicio");
+                        window.location.href = '/sistema/public/inicio';
+                    }
+                }, 1500);
                 
             } else {
                 mostrarAlerta2FA(result.message || 'Código incorrecto', 'error');
@@ -572,7 +517,7 @@
         showLoading(true);
         
         try {
-            // 🔥 ACTUALIZADO: Usar el nuevo endpoint de 2FA
+            // Usar el nuevo endpoint de 2FA
             const response = await fetch('/sistema/public/index.php?route=auth&caso=iniciar-2fa', {
                 method: 'POST',
                 headers: { 
@@ -613,34 +558,25 @@
                     if (result.data && result.data.data) {
                         const userData = result.data.data;
                         
-                        console.log("=== 🔍 DEBUG COMPLETO - USUARIO NUEVO ===");
-                        console.log("📊 userData COMPLETO:", userData);
+                        console.log("===  DEBUG COMPLETO - USUARIO NUEVO ===");
+                        console.log(" userData COMPLETO:", userData);
                         
-                        // Buscar estado del usuario
-                        let estado = userData.ESTADO_USUARIO || 
-                                    userData.estado_usuario ||
-                                    userData.ESTADO || 
-                                    userData.estado ||
-                                    userData.user?.ESTADO_USUARIO ||
-                                    userData.user?.estado_usuario;
+                        // Verificar PRIMER_INGRESO en lugar de ESTADO
+                        const primerIngreso = userData.primer_ingreso;
+                        console.log(" PRIMER_INGRESO encontrado:", primerIngreso);
                         
-                        console.log("🎯 Estado encontrado:", estado);
-                        
-                        // 🔥 DECISIÓN BASADA EN ESTADO
-                        if (estado === 'Nuevo' || estado === 'NUEVO' || estado === 'nuevo') {
-                            console.log("✅ USUARIO NUEVO DETECTADO - Redirigiendo a configurar preguntas");
-                            showAlert('Usuario nuevo detectado. Debe configurar preguntas de seguridad.', 'success');
-                            window.location.href = '/sistema/public/index.php?route=configurar-preguntas&id=' + userData.id_usuario;
-                        } else if (estado === 'Activo' || estado === 'ACTIVO' || estado === 'activo') {
-                            console.log("✅ USUARIO ACTIVO - Redirigiendo a inicio");
-                            window.location.href = '/sistema/public/index.php?route=inicio';
+                        // DECISIÓN BASADA EN PRIMER_INGRESO
+                        if (primerIngreso === 0 || primerIngreso === false) {
+                            console.log(" USUARIO CON PRIMER INGRESO - Redirigiendo a cambiar contraseña");
+                            showAlert('Primer ingreso detectado. Debe cambiar su contraseña.', 'success');
+                            window.location.href = '/sistema/public/cambiar-password';
                         } else {
-                            console.log("❓ ESTADO NO RECONOCIDO:", estado, "- Redirigiendo a inicio por defecto");
-                            window.location.href = '/sistema/public/index.php?route=inicio';
+                            console.log(" USUARIO ACTIVO - Redirigiendo a inicio");
+                            window.location.href = '/sistema/public/inicio';
                         }
                     } else {
-                        console.log("❌ No hay datos de usuario - Redirigiendo a inicio");
-                        window.location.href = '/sistema/public/index.php?route=inicio';
+                        console.log("No hay datos de usuario - Redirigiendo a inicio");
+                        window.location.href = '/sistema/public/inicio';
                     }
                 }, 1500);
                 
