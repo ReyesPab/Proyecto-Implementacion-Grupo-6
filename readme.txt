@@ -1,41 +1,38 @@
-Para chequear el estado de la rama 
+git init 
+
+git remote add origin https://github.com/ReyesPab/Proyecto-Implementacion-Grupo-6.git 
+
 git checkout master
 git pull origin master
+git checkout -b nombre-rama
 
-Para crear una rama de trabajo 
-git checkout -b nombre-de-su-rama
-
-Para subir sus partes a sus ramas 
-git add .
-git commit -m "Agregado CRUD de productos"
-git push -u origin ana-modulo-inventario
-
-
-
-# Ver cambios
-git status
-
-# Agregar todos los cambios
 git add .
 
-# Hacer commit con mensaje claro
-git commit -m "Agregado formulario de registro de usuarios"
+git commit -m "Commit inicial en nombre-de-tu-rama"
 
-# Subir tu rama al repositorio remoto (la primera vez)
 git push -u origin nombre-de-tu-rama
 
 
 
+por si ya se creo la rama en la nube
+git fetch origin
+git checkout -b nombre-de-la-rama origin/nombre-de-la-rama
 
-
-# Cambiar a master
+Actualizar de rama con los últimos cambios de master
 git checkout master
-
-# Asegurarse de que esté actualizado
 git pull origin master
+git checkout nombre-funcionalidad
+git merge master
 
-# Fusionar tu rama
+para cargar tu rama en la rama A TU RAMA 
+git push -u origin Nombre-rama
+
+
+sin el chekout
+1. Cambiar a master y actualizar
+git checkout master
+git pull origin master
+ 2. Fusionar tu rama
 git merge nombre-de-tu-rama
-
-# Subir a master
+ 3. Subir la fusión a GitHub
 git push origin master
