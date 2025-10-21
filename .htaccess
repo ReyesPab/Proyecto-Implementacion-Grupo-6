@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /sistema/
+
+# Redirige todo a la carpeta public
+RewriteCond %{REQUEST_URI} !^/sistema/public/
+RewriteRule ^(.*)$ public/$1 [L]

@@ -265,13 +265,21 @@ class authController {
         // Generar contraseña temporal
         $contraseñaTemporal = authModel::generarContraseñaTemporal();
         
+<<<<<<< HEAD
         error_log("🔐 CONTRASEÑA TEMPORAL PARA $usuario: $contraseñaTemporal");
+=======
+        error_log("CONTRASEÑA TEMPORAL PARA $usuario: $contraseñaTemporal");
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
         
         // Solicitar recuperación por correo
         $result = authModel::solicitarRecuperacionCorreo($usuario, $contraseñaTemporal);
         
         if ($result['success']) {
+<<<<<<< HEAD
             // 🔥 USAR EmailService para enviar el correo
+=======
+            // USAR EmailService para enviar el correo
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
             $correoEnviado = \App\config\EmailService::enviarCorreoRecuperacion(
                 $result['correo'],
                 $result['nombre_usuario'], 
@@ -281,12 +289,19 @@ class authController {
             );
             
             if ($correoEnviado) {
+<<<<<<< HEAD
                 // 🔥 NUEVO: Registrar en bitácora con ID_OBJETO = 5
                 $this->registrarBitacoraConObjeto(
                     $userData['ID_USUARIO'], 
                     'RECUPERACION_CORREO_ENVIADA', 
                     'Contraseña temporal enviada a: ' . $result['correo'],
                     5
+=======
+                authModel::registrarBitacora(
+                    $userData['ID_USUARIO'], 
+                    'RECUPERACION_CORREO_ENVIADA', 
+                    'Contraseña temporal enviada a: ' . $result['correo']
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
                 );
                 
                 $responseData = [
@@ -298,6 +313,7 @@ class authController {
                     'correo_enviado' => true
                 ];
                 
+<<<<<<< HEAD
                 // 🔥 NUEVO: Registrar en bitácora con ID_OBJETO = 5
                 $this->registrarBitacoraConObjeto(
                     $userData['ID_USUARIO'], 
@@ -305,6 +321,11 @@ class authController {
                     'Contraseña temporal enviada por correo a: ' . $userData['CORREO_ELECTRONICO'],
                     5
                 );
+=======
+                // Registrar en bitácora
+        authModel::registrarBitacora($userData['ID_USUARIO'], 'RECUPERACION_CORREO_ENVIADA', 
+                                   'Contraseña temporal enviada por correo a: ' . $userData['CORREO_ELECTRONICO']);
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
         
                 $mensaje = 'Se ha enviado una contraseña temporal a su correo electrónico: ' . $result['correo'];
                 
@@ -327,16 +348,25 @@ class authController {
             }
             
         } else {
+<<<<<<< HEAD
             error_log("❌ ERROR EN recuperarPorCorreo: " . $result['message']);
+=======
+            error_log(" ERROR EN recuperarPorCorreo: " . $result['message']);
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
             echo json_encode(responseHTTP::status500($result['message']));
         }
         
     } catch (\Exception $e) {
+<<<<<<< HEAD
         error_log("💥 EXCEPCIÓN EN recuperarPorCorreo: " . $e->getMessage());
+=======
+        error_log(" EXCEPCIÓN EN recuperarPorCorreo: " . $e->getMessage());
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
         echo json_encode(responseHTTP::status500('Error interno del servidor: ' . $e->getMessage()));
     }
 }
 
+<<<<<<< HEAD
 // 🔥 NUEVO MÉTODO: Registrar en bitácora con ID_OBJETO específico
 private function registrarBitacoraConObjeto($idUsuario, $accion, $descripcion, $idObjeto) {
     try {
@@ -361,6 +391,8 @@ private function registrarBitacoraConObjeto($idUsuario, $accion, $descripcion, $
     }
 }
 
+=======
+>>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 
 
 // Agrega estos métodos a tu clase authController existente
