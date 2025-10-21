@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirigir la raíz del sistema directamente al login
+RewriteRule ^$ public/index.php?route=login [L]
+
+# Redirigir cualquier otra ruta al public/ manteniendo la ruta
+RewriteRule ^(.*)$ public/$1 [L]

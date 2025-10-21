@@ -1,0 +1,14 @@
+RewriteEngine On
+Options All -Indexes
+
+# Proteger el archivo .htaccess
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+# Redirigir si llegan a /public/ sin parámetros
+RewriteRule ^$ index.php?route=login [L]
+
+# URL amigable para todas las rutas
+RewriteRule ^([0-9a-zA-Z-_@./]+)$ index.php?route=$1 [QSA,L]

@@ -1,0 +1,3205 @@
+[15-Oct-2025 19:33:39 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:33:39 America/Tegucigalpa] PHP Warning:  Undefined array key "STATUS" in C:\xampp\htdocs\sistema\src\models\authModel.php on line 34
+[15-Oct-2025 19:35:43 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:35:43 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:36:20 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:36:20 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[15-Oct-2025 19:36:20 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[15-Oct-2025 19:36:20 America/Tegucigalpa] 💥 [DASHBOARD] Error PDO: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE rosquilleria.SP_CAMBIAR_PASSWORD_SIN_ENIE does not exist
+[15-Oct-2025 19:45:23 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:45:23 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[15-Oct-2025 19:45:23 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[15-Oct-2025 19:45:23 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[15-Oct-2025 19:46:57 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:46:57 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 2
+    [NUMERO_IDENTIDAD] => 0801199901234
+    [USUARIO] => USER
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_t
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-15 15:18:19
+    [FECHA_VENCIMIENTO] => 
+    [CORREO_ELECTRONICO] => 
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 0
+)
+
+[15-Oct-2025 19:47:00 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:47:00 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:47:25 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:48:10 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:48:10 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:48:16 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:48:54 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:48:54 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 3
+    [NUMERO_IDENTIDAD] => 120620010032
+    [USUARIO] => DENIS
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-15 19:48:10
+    [FECHA_VENCIMIENTO] => 2026-10-10
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[15-Oct-2025 19:49:43 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:49:43 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:49:44 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:51:39 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:51:39 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:51:39 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:51:39 America/Tegucigalpa] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\sistema\src\config\Security.php on line 59
+[15-Oct-2025 19:51:39 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:51:39 America/Tegucigalpa] 🔧 Cambiando contraseña para usuario: 2
+[15-Oct-2025 19:51:39 America/Tegucigalpa] ✅ Contraseña cambiada exitosamente para usuario: 2
+[15-Oct-2025 19:53:08 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:53:53 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:54:22 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:54:22 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 19:54:25 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:33:17 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:08 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:08 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:13 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:13 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 3
+    [NUMERO_IDENTIDAD] => 120620010032
+    [USUARIO] => DENIS
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-15 19:48:10
+    [FECHA_VENCIMIENTO] => 2026-10-10
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-15 19:54:22
+    [PRIMER_INGRESO] => 1
+)
+
+[15-Oct-2025 20:37:15 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:15 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 20:37:23 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:50:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:50:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:50:04 America/Tegucigalpa] PHP Fatal error:  Uncaught Error: Call to undefined method App\controllers\authController::recuperarPorPreguntas() in C:\xampp\htdocs\sistema\src\controllers\authController.php:315
+Stack trace:
+#0 C:\xampp\htdocs\sistema\src\routes\auth.php(83): App\controllers\authController->recuperarPasswordAvanzado()
+#1 C:\xampp\htdocs\sistema\public\index.php(128): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 315
+[15-Oct-2025 21:55:27 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:55:28 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:55:28 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:55:28 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:56:20 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 21:57:02 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:16:37 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:16:37 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:16:37 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:16:37 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:32:56 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:32:56 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:32:56 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:32:56 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:35 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:35 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:35 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:38 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:38 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:38 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:50 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:50 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:50 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:33:50 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:42:11 America/Tegucigalpa] authModel::solicitarRecuperacionCorreo -> SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[15-Oct-2025 23:45:03 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:45:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:45:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:45:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:45:04 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:45:06 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\models\authModel.php on line 494
+[15-Oct-2025 23:45:06 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:48:32 America/Tegucigalpa] ✅ Contraseña temporal generada para: denislopez1206@gmail.com - Contraseña: m6BX%pv
+[15-Oct-2025 23:48:32 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:50:47 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:51:05 America/Tegucigalpa] Conexión exitosa
+[15-Oct-2025 23:51:05 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:17:54 America/Tegucigalpa] ✅ Contraseña temporal generada para: denislopez1206@gmail.com - Contraseña: D0Z^e
+[16-Oct-2025 01:17:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:18:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:18:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:18:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:18:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:19:52 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:19:52 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:19:52 America/Tegucigalpa] 🔐 Contraseña generada: 3wY*N*nvN - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 01:19:52 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:19:52 America/Tegucigalpa] ✅ Contraseña temporal generada para: denislopez1206@gmail.com - Contraseña: 3wY*N*nvN
+[16-Oct-2025 01:19:52 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:20:07 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:20:08 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:21:07 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:21:07 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 3
+    [NUMERO_IDENTIDAD] => 120620010032
+    [USUARIO] => DENIS
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [ESTADO_USUARIO] => Activo
+    [CONTRASENA] => 3wY*N*nvN
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-15 19:48:10
+    [FECHA_VENCIMIENTO] => 2025-10-17
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-16 01:20:07
+    [PRIMER_INGRESO] => 1
+)
+
+[16-Oct-2025 01:21:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:21:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:21:55 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:22:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:22:47 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:22:47 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:23:13 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:23:13 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:23:15 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:24:58 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:24:58 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:25:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:28:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:28:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:28:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:28:28 America/Tegucigalpa] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\sistema\src\config\Security.php on line 59
+[16-Oct-2025 01:28:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:28:28 America/Tegucigalpa] 🔧 Cambiando contraseña para usuario: 4
+[16-Oct-2025 01:28:28 America/Tegucigalpa] ✅ Contraseña cambiada exitosamente para usuario: 4
+[16-Oct-2025 01:29:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:29:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:29:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:29:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:29:27 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:29:59 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:30:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:30:10 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:30:44 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:30:44 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 4
+[16-Oct-2025 01:30:44 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[16-Oct-2025 01:30:44 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[16-Oct-2025 01:31:17 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:17 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:28 America/Tegucigalpa] 🔐 Contraseña generada: 54T@I!eiA4 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 01:31:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:28 America/Tegucigalpa] ✅ Contraseña temporal generada para: moya@gmail.com - Contraseña: 54T@I!eiA4
+[16-Oct-2025 01:31:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:31:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:32:43 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:32:43 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 4
+[16-Oct-2025 01:32:43 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[16-Oct-2025 01:32:43 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[16-Oct-2025 01:49:50 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:50:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:50:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:50:39 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:50:39 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 4
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => CARLOS
+    [NOMBRE_USUARIO] => CARLOS MOYA
+    [ESTADO_USUARIO] => Activo
+    [CONTRASENA] => 12345A_dr
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-16 01:22:47
+    [FECHA_VENCIMIENTO] => 2025-10-17
+    [CORREO_ELECTRONICO] => moya@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-16 01:31:43
+    [PRIMER_INGRESO] => 0
+)
+
+[16-Oct-2025 01:50:42 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:50:42 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:57:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:57:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:57:54 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:58:11 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 01:59:28 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:08:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:08:21 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:08:40 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:11:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:11:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:14:56 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:14:56 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:15:07 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:15:07 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:16:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:16:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:16:08 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:16:35 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:16:39 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:18:48 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:18:48 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:19:16 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:19:16 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 5
+    [NUMERO_IDENTIDAD] => 32323232323
+    [USUARIO] => WALESKA
+    [NOMBRE_USUARIO] => KAREN WALESKA
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 3232A_a
+    [ID_ROL] => 1
+    [ROL] => ADMINISTRADOR
+    [FECHA_CREACION] => 2025-10-16 02:18:48
+    [FECHA_VENCIMIENTO] => 2026-10-11
+    [CORREO_ELECTRONICO] => waleska@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[16-Oct-2025 02:39:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 02:39:09 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:55:14 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:55:14 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:55:51 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:55:51 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[16-Oct-2025 17:55:51 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[16-Oct-2025 17:55:51 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[16-Oct-2025 17:56:49 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:56:49 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:56:49 America/Tegucigalpa] 🔐 Contraseña generada: NpU$t7WRG* - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 17:56:49 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:56:49 America/Tegucigalpa] ✅ Contraseña temporal generada para: denislopez1206@gmail.com - Contraseña: NpU$t7WRG*
+[16-Oct-2025 17:56:49 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:45 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:45 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 5
+    [NUMERO_IDENTIDAD] => 32323232323
+    [USUARIO] => WALESKA
+    [NOMBRE_USUARIO] => KAREN WALESKA
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 3232A_a
+    [ID_ROL] => 1
+    [ROL] => ADMINISTRADOR
+    [FECHA_CREACION] => 2025-10-16 02:18:48
+    [FECHA_VENCIMIENTO] => 2026-10-11
+    [CORREO_ELECTRONICO] => waleska@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[16-Oct-2025 17:58:51 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:51 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:58:59 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:59:42 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:59:42 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:59:48 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:59:51 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 17:59:51 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 6
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => PEDRO
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-16 17:59:42
+    [FECHA_VENCIMIENTO] => 2026-10-11
+    [CORREO_ELECTRONICO] => deni6@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[16-Oct-2025 21:07:04 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:07:04 America/Tegucigalpa] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at [Sistema Rosquilleria]. in C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
+Stack trace:
+#0 C:\xampp\htdocs\sistema\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
+#1 C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php(29): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
+#2 C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "1...')
+#3 C:\xampp\htdocs\sistema\src\db\dataDB.php(11): Dotenv\Dotenv->load()
+#4 C:\xampp\htdocs\sistema\src\db\connectionDB.php(7): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sistema\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sistema\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sistema\src\models\authModel.php(289): Composer\Autoload\ClassLoader->loadClass('App\\db\\connecti...')
+#8 C:\xampp\htdocs\sistema\src\controllers\authController.php(227): App\models\authModel::verificarUsuarioRecuperacion('DENIS')
+#9 C:\xampp\htdocs\sistema\src\routes\auth.php(83): App\controllers\authController->recuperarPasswordAvanzado()
+#10 C:\xampp\htdocs\sistema\public\index.php(128): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
+[16-Oct-2025 21:08:20 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:08:20 America/Tegucigalpa] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at [Sistema Rosquilleria]. in C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
+Stack trace:
+#0 C:\xampp\htdocs\sistema\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
+#1 C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php(29): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
+#2 C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "1...')
+#3 C:\xampp\htdocs\sistema\src\db\dataDB.php(11): Dotenv\Dotenv->load()
+#4 C:\xampp\htdocs\sistema\src\db\connectionDB.php(7): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sistema\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sistema\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sistema\src\models\authModel.php(289): Composer\Autoload\ClassLoader->loadClass('App\\db\\connecti...')
+#8 C:\xampp\htdocs\sistema\src\controllers\authController.php(227): App\models\authModel::verificarUsuarioRecuperacion('DENIS')
+#9 C:\xampp\htdocs\sistema\src\routes\auth.php(83): App\controllers\authController->recuperarPasswordAvanzado()
+#10 C:\xampp\htdocs\sistema\public\index.php(128): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\sistema\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
+[16-Oct-2025 21:09:33 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:09:34 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:09:34 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Activo
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => Activo
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 🔐 Contraseña generada: Ws2I5y!8a$ - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:09:34 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: Ws2I5y!8a$
+[16-Oct-2025 21:09:34 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:09:34
+)
+
+[16-Oct-2025 21:09:36 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\config\EmailService.php on line 72
+[16-Oct-2025 21:09:36 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[16-Oct-2025 21:09:36 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:15:27 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:15:27 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🔐 Contraseña generada: @OlAcT3wtT - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:15:27 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: @OlAcT3wtT
+[16-Oct-2025 21:15:27 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:15:27
+)
+
+[16-Oct-2025 21:15:28 America/Tegucigalpa] ❌ Error PHPMailer: SMTP Error: Could not authenticate.
+[16-Oct-2025 21:15:30 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\config\EmailService.php on line 72
+[16-Oct-2025 21:15:30 America/Tegucigalpa] ❌ Error al enviar correo básico a: denislopez1206@gmail.com
+[16-Oct-2025 21:15:30 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[16-Oct-2025 21:15:30 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:20:41 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:20:41 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🔐 Contraseña generada: #cghL4QsE - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:20:41 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: #cghL4QsE
+[16-Oct-2025 21:20:41 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:20:41
+)
+
+[16-Oct-2025 21:20:41 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:22:19 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:22:19 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🔐 Contraseña generada: 2^&fE64w - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:22:19 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 2^&fE64w
+[16-Oct-2025 21:22:19 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:22:19
+)
+
+[16-Oct-2025 21:22:19 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:22:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:22:31 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🔐 Contraseña generada: t8H#iPk4 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:22:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: t8H#iPk4
+[16-Oct-2025 21:22:31 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:22:31
+)
+
+[16-Oct-2025 21:22:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:27:17 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:27:33 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:28:19 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:28:31 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:30:03 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:30:11 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected variable "$result", expecting "function" or "const" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 304
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:35:58 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:35:58 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔐 Contraseña generada: 3YwS*%K8 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: 3YwS*%K8
+[16-Oct-2025 21:35:58 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 3YwS*%K8
+[16-Oct-2025 21:35:58 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:35:58
+)
+
+[16-Oct-2025 21:35:58 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:35:58 America/Tegucigalpa] ✅ RESPUESTA ENVIADA: Array
+(
+    [usuario] => DENIS
+    [password_temporal] => 3YwS*%K8
+    [fecha_expiracion] => 2025-10-17 21:35:58
+    [correo] => denislopez1206@gmail.com
+    [nombre_usuario] => DENIS IRWIN LOPEZ
+)
+
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:37:06 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:37:06 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔐 Contraseña generada: nUT5W4u$c - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: nUT5W4u$c
+[16-Oct-2025 21:37:06 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: nUT5W4u$c
+[16-Oct-2025 21:37:06 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:37:06
+)
+
+[16-Oct-2025 21:37:06 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:37:06 America/Tegucigalpa] ✅ RESPUESTA ENVIADA: Array
+(
+    [usuario] => DENIS
+    [password_temporal] => nUT5W4u$c
+    [fecha_expiracion] => 2025-10-17 21:37:06
+    [correo] => denislopez1206@gmail.com
+    [nombre_usuario] => DENIS IRWIN LOPEZ
+)
+
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:44:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:44:37 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔐 Contraseña generada: zPw$iJ8i - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: zPw$iJ8i
+[16-Oct-2025 21:44:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: zPw$iJ8i
+[16-Oct-2025 21:44:37 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:44:37
+)
+
+[16-Oct-2025 21:44:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:44:37 America/Tegucigalpa] ✅ RESPUESTA ENVIADA: Array
+(
+    [usuario] => DENIS
+    [password_temporal] => zPw$iJ8i
+    [fecha_expiracion] => 2025-10-17 21:44:37
+    [correo] => denislopez1206@gmail.com
+    [nombre_usuario] => DENIS IRWIN LOPEZ
+)
+
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 21:50:47 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 21:50:47 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔐 Contraseña generada: CV@lEx@8^5 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: CV@lEx@8^5
+[16-Oct-2025 21:50:47 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: CV@lEx@8^5
+[16-Oct-2025 21:50:47 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 21:50:47
+)
+
+[16-Oct-2025 21:50:47 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 21:50:47 America/Tegucigalpa] ✅ RESPUESTA ENVIADA: Array
+(
+    [usuario] => DENIS
+    [password_temporal] => CV@lEx@8^5
+    [fecha_expiracion] => 2025-10-17 21:50:47
+    [correo] => denislopez1206@gmail.com
+    [nombre_usuario] => DENIS IRWIN LOPEZ
+)
+
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 22:24:53 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 22:24:53 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔐 Contraseña generada: X3Dq3&blN - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: X3Dq3&blN
+[16-Oct-2025 22:24:53 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: X3Dq3&blN
+[16-Oct-2025 22:24:53 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 22:24:53
+)
+
+[16-Oct-2025 22:24:55 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\models\authModel.php on line 460
+[16-Oct-2025 22:24:55 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[16-Oct-2025 22:24:55 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:32:52 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 22:32:53 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 22:32:53 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔐 Contraseña generada: H4*JOKSp1 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: H4*JOKSp1
+[16-Oct-2025 22:32:53 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: H4*JOKSp1
+[16-Oct-2025 22:32:53 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 22:32:53
+)
+
+[16-Oct-2025 22:32:55 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\models\authModel.php on line 460
+[16-Oct-2025 22:32:55 America/Tegucigalpa] ❌ Error al enviar correo a: denislopez1206@gmail.com
+[16-Oct-2025 22:32:55 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 22:48:23 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 22:48:23 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔐 Contraseña generada: C3^Lva*#J8 - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: C3^Lva*#J8
+[16-Oct-2025 22:48:23 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: C3^Lva*#J8
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 22:48:23
+)
+
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🚀 INTENTANDO ENVIAR CORREO A: denislopez1206@gmail.com
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 📧 PHPMailer no encontrado en: C:\xampp\htdocs\sistema\src\models/../../vendor/PHPMailer/src/PHPMailer.php
+[16-Oct-2025 22:48:23 America/Tegucigalpa] 🔄 Intentando método mail() básico...
+[16-Oct-2025 22:48:25 America/Tegucigalpa] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\sistema\src\models\authModel.php on line 487
+[16-Oct-2025 22:48:25 America/Tegucigalpa] ❌ Falló mail() para: denislopez1206@gmail.com
+[16-Oct-2025 22:48:25 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 23:10:44 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 23:10:44 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔐 Contraseña generada: 7@NffW1xz - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: 7@NffW1xz
+[16-Oct-2025 23:10:44 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 7@NffW1xz
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 23:10:44
+)
+
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🚀 INTENTANDO ENVIAR CORREO A: denislopez1206@gmail.com
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 📧 PHPMailer no encontrado en: C:\xampp\htdocs\sistema\src\models/../../vendor/PHPMailer/src/PHPMailer.php
+[16-Oct-2025 23:10:44 America/Tegucigalpa] 🔄 Intentando método mail() básico...
+[16-Oct-2025 23:10:45 America/Tegucigalpa] PHP Warning:  mail(): SMTP server response: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. a1e0cc1a2514c-930bf6b17easm5897642241.3 - gsmtp in C:\xampp\htdocs\sistema\src\models\authModel.php on line 487
+[16-Oct-2025 23:10:45 America/Tegucigalpa] ❌ Falló mail() para: denislopez1206@gmail.com
+[16-Oct-2025 23:10:45 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 23:29:01 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 23:29:01 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔐 Contraseña generada: eh5Omo!zVG - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: eh5Omo!zVG
+[16-Oct-2025 23:29:01 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: eh5Omo!zVG
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 23:29:01
+)
+
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🚀 INTENTANDO ENVIAR CORREO A: denislopez1206@gmail.com
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 📧 PHPMailer no encontrado en: C:\xampp\htdocs\sistema\src\models/../../vendor/PHPMailer/src/PHPMailer.php
+[16-Oct-2025 23:29:01 America/Tegucigalpa] 🔄 Intentando método mail() básico...
+[16-Oct-2025 23:29:02 America/Tegucigalpa] PHP Warning:  mail(): SMTP server response: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. a1e0cc1a2514c-930bf78d14csm5924096241.16 - gsmtp in C:\xampp\htdocs\sistema\src\models\authModel.php on line 487
+[16-Oct-2025 23:29:02 America/Tegucigalpa] ❌ Falló mail() para: denislopez1206@gmail.com
+[16-Oct-2025 23:29:02 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[16-Oct-2025 23:36:35 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[16-Oct-2025 23:36:35 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔐 Contraseña generada: 6!LkXxO@ - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: 6!LkXxO@
+[16-Oct-2025 23:36:35 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 6!LkXxO@
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-17 23:36:35
+)
+
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[16-Oct-2025 23:36:35 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[16-Oct-2025 23:36:35 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[16-Oct-2025 23:36:37 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[16-Oct-2025 23:36:37 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:38:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:38:00 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:45:31 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:45:31 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 6
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => PEDRO
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-16 17:59:42
+    [FECHA_VENCIMIENTO] => 2026-10-11
+    [CORREO_ELECTRONICO] => deni6@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[16-Oct-2025 23:45:33 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:45:33 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:46:52 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:49:35 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: PEDRO, Método: correo
+[16-Oct-2025 23:49:35 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:49:35 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: PEDRO
+[16-Oct-2025 23:49:35 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: PEDRO
+[16-Oct-2025 23:49:35 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[16-Oct-2025 23:49:35 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[16-Oct-2025 23:49:35 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[16-Oct-2025 23:50:34 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[16-Oct-2025 23:50:34 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Activo
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => Activo
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔐 Contraseña generada: 89svbX!QO - Min: 1, May: 1, Num: 1, Esp: 1
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: 89svbX!QO
+[16-Oct-2025 23:50:34 America/Tegucigalpa] Conexión exitosa
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 89svbX!QO
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-17 23:50:34
+)
+
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[16-Oct-2025 23:50:34 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[16-Oct-2025 23:50:34 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[16-Oct-2025 23:50:37 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[16-Oct-2025 23:50:37 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:00:10 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:00:10 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔐 Contraseña generada: V1s%@!J!c - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: V1s%@!J!c
+[17-Oct-2025 00:00:10 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: V1s%@!J!c
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:00:10
+)
+
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:00:10 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:00:10 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:00:12 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 00:00:12 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:20:09 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:20:09 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔐 Contraseña generada: qF1hIC&rf - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: qF1hIC&rf
+[17-Oct-2025 00:20:09 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: qF1hIC&rf
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:20:09
+)
+
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:20:09 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:20:09 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:20:11 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:31:10 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:31:10 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔐 Contraseña generada: x4%7X&U$ - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: x4%7X&U$
+[17-Oct-2025 00:31:10 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: x4%7X&U$
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:31:10
+)
+
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:31:10 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:31:10 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:31:13 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 00:34:44 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:34:45 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:34:45 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔐 Contraseña generada: 2gR&7K$f - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: 2gR&7K$f
+[17-Oct-2025 00:34:45 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 2gR&7K$f
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:34:45
+)
+
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:34:45 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:34:45 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:34:48 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:48:29 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:48:29 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔐 Contraseña generada: Z5AbpD0% - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: Z5AbpD0%
+[17-Oct-2025 00:48:29 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: Z5AbpD0%
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:48:29
+)
+
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:48:29 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:48:29 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:48:32 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 00:49:45 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:49:45 America/Tegucigalpa] PHP Fatal error:  Cannot redeclare App\models\authModel::solicitarRecuperacionCorreo() in C:\xampp\htdocs\sistema\src\models\authModel.php on line 373
+[17-Oct-2025 00:50:33 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 00:50:34 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 00:50:34 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔐 Contraseña generada: kzNRx7YFD$ - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: kzNRx7YFD$
+[17-Oct-2025 00:50:34 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: kzNRx7YFD$
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 00:50:34
+)
+
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 00:50:34 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 00:50:34 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 00:50:36 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 01:12:03 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 01:12:03 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔐 Contraseña generada: &4B2o7su - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: &4B2o7su
+[17-Oct-2025 01:12:03 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: &4B2o7su
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 01:12:03
+)
+
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 01:12:03 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 01:12:03 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 01:12:06 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 01:14:24 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:14:24 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:26:47 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 01:26:48 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 01:26:48 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔐 Contraseña generada: lW1g%nsJw - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: lW1g%nsJw
+[17-Oct-2025 01:26:48 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: lW1g%nsJw
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 01:26:48
+)
+
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 01:26:48 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 01:26:48 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 01:26:51 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 01:26:51 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:38:29 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:38:30 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:38:51 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:38:51 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[17-Oct-2025 01:38:51 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[17-Oct-2025 01:38:51 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 01:48:04 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 01:48:04 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔐 Contraseña generada: &Dj9K6bF - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: &Dj9K6bF
+[17-Oct-2025 01:48:04 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: &Dj9K6bF
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 01:48:04
+)
+
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 01:48:04 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 01:48:04 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 01:48:07 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 01:48:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 01:48:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 02:05:42 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 02:05:42 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔐 Contraseña generada: 9%1jHiNqqg - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: 9%1jHiNqqg
+[17-Oct-2025 02:05:42 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 9%1jHiNqqg
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 02:05:42
+)
+
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 02:05:42 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 02:05:42 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 02:05:45 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 02:05:45 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:05:45 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 02:05:45 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:05:45 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 02:23:18 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\sistema\src\Views\partials\sidebar.php on line 350
+[17-Oct-2025 02:55:12 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 02:55:12 America/Tegucigalpa] Campos recibidos del SP: Array
+(
+    [ID_USUARIO] => 6
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => PEDRO
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-16 17:59:42
+    [FECHA_VENCIMIENTO] => 2026-10-11
+    [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 03:42:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 03:42:07 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔐 Contraseña generada: 4y$Q%I2Td - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: 4y$Q%I2Td
+[17-Oct-2025 03:42:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 4y$Q%I2Td
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 03:42:07
+)
+
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 03:42:07 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 03:42:07 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 03:42:11 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 03:42:11 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 03:42:11 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 03:42:11 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 03:42:11 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 18:21:19 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 18:21:20 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 18:21:20 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔐 Contraseña generada: #2iF06Ps5 - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: #2iF06Ps5
+[17-Oct-2025 18:21:20 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: #2iF06Ps5
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 18:21:20
+)
+
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 18:21:20 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 18:21:20 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 18:21:22 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 18:21:22 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 18:21:22 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 18:21:22 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 18:21:22 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 18:43:05 America/Tegucigalpa] PHP Parse error:  Unclosed '{' on line 15 in C:\xampp\htdocs\sistema\src\routes\auth.php on line 161
+[17-Oct-2025 18:43:12 America/Tegucigalpa] PHP Parse error:  Unclosed '{' on line 15 in C:\xampp\htdocs\sistema\src\routes\auth.php on line 161
+[17-Oct-2025 18:44:10 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "private" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 333
+[17-Oct-2025 18:45:28 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "public" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 335
+[17-Oct-2025 18:46:28 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "public" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 333
+[17-Oct-2025 19:21:13 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 19:21:14 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 19:21:14 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔐 Contraseña generada: 4C@qw3CHMf - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: 4C@qw3CHMf
+[17-Oct-2025 19:21:14 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 4C@qw3CHMf
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 19:21:14
+)
+
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 19:21:14 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 19:21:14 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 19:21:16 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 19:21:16 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:21:16 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 19:21:16 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:21:16 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 19:24:17 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:24:17 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:25:28 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 19:25:29 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 19:25:29 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔐 Contraseña generada: gDaa&#033 - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: gDaa&#033
+[17-Oct-2025 19:25:29 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: gDaa&#033
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 19:25:29
+)
+
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 19:25:29 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 19:25:29 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 19:25:31 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 19:25:31 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:25:31 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 19:25:31 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:25:31 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[17-Oct-2025 19:52:32 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[17-Oct-2025 19:52:32 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔐 Contraseña generada: 3kma!&&H - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: 3kma!&&H
+[17-Oct-2025 19:52:32 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 3kma!&&H
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-18 19:52:32
+)
+
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[17-Oct-2025 19:52:32 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 19:52:32 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 19:52:35 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[17-Oct-2025 19:52:35 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:52:35 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 19:52:35 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 19:52:35 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 20:25:54 America/Tegucigalpa] PHP Fatal error:  Cannot redeclare App\controllers\authController::__construct() in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 329
+[17-Oct-2025 20:26:33 America/Tegucigalpa] PHP Fatal error:  Cannot redeclare App\controllers\authController::__construct() in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 329
+[17-Oct-2025 20:29:32 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 20:29:32 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 20:29:32 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 20:29:32 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 111
+[17-Oct-2025 20:29:33 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 20:29:33 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:57:50 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 22:57:50 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:57:50 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 22:57:50 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 113
+[17-Oct-2025 22:57:50 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:34 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 22:58:34 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:34 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 22:58:34 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 114
+[17-Oct-2025 22:58:34 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:34 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:34 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: 
+[17-Oct-2025 22:58:34 America/Tegucigalpa] ❌ ERROR ENVIANDO CÓDIGO 2FA: Invalid address:  (to): 
+[17-Oct-2025 22:58:44 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 22:58:44 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:44 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 22:58:44 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 116
+[17-Oct-2025 22:58:44 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:44 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 22:58:44 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: 
+[17-Oct-2025 22:58:44 America/Tegucigalpa] ❌ ERROR ENVIANDO CÓDIGO 2FA: Invalid address:  (to): 
+[17-Oct-2025 23:00:32 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:00:32 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:00:32 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:00:32 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 118
+[17-Oct-2025 23:00:33 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:01:21 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:01:21 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:01:21 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:01:21 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 119
+[17-Oct-2025 23:01:21 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:01:21 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:01:21 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denisunah1206@gmail.com
+[17-Oct-2025 23:01:24 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denisunah1206@gmail.com
+[17-Oct-2025 23:01:24 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:01:24 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_INICIADO
+[17-Oct-2025 23:02:08 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:02:09 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:02:09 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:02:09 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 122
+[17-Oct-2025 23:02:09 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:02:09 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_VERIFICADO
+[17-Oct-2025 23:02:11 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: get
+[17-Oct-2025 23:02:11 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:02:11 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:02:11 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 124
+[17-Oct-2025 23:02:11 America/Tegucigalpa] PHP Fatal error:  Uncaught Error: Call to undefined method App\controllers\authController::obtenerPreguntas() in C:\xampp\htdocs\sistema\src\routes\auth.php:58
+Stack trace:
+#0 C:\xampp\htdocs\sistema\public\index.php(128): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\sistema\src\routes\auth.php on line 58
+[17-Oct-2025 23:07:58 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:07:58 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:07:58 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:07:58 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 125
+[17-Oct-2025 23:07:58 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:07:58 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:07:58 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denisunah1206@gmail.com
+[17-Oct-2025 23:08:01 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denisunah1206@gmail.com
+[17-Oct-2025 23:08:01 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:08:01 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_INICIADO
+[17-Oct-2025 23:08:21 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:08:21 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:08:21 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:08:21 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 128
+[17-Oct-2025 23:08:21 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denisunah1206@gmail.com
+[17-Oct-2025 23:08:23 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denisunah1206@gmail.com
+[17-Oct-2025 23:08:23 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:08:23 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_REENVIADO
+[17-Oct-2025 23:08:47 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:08:47 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:08:47 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:08:47 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 130
+[17-Oct-2025 23:08:47 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:08:47 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_VERIFICADO
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:09:55 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:09:55 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 132
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[17-Oct-2025 23:09:55 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[17-Oct-2025 23:09:55 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔐 Contraseña generada: b9WoulR$ - Min: 1, May: 1, Num: 1, Esp: 1
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: b9WoulR$
+[17-Oct-2025 23:09:55 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: b9WoulR$
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-18 23:09:55
+)
+
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[17-Oct-2025 23:09:55 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[17-Oct-2025 23:09:55 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[17-Oct-2025 23:09:57 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[17-Oct-2025 23:09:57 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:09:57 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 23:09:57 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:09:57 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[17-Oct-2025 23:15:50 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:15:50 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:15:50 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:15:50 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 136
+[17-Oct-2025 23:15:50 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:15:50 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:15:50 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denisunah1206@gmail.com
+[17-Oct-2025 23:15:53 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denisunah1206@gmail.com
+[17-Oct-2025 23:15:53 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:15:53 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_INICIADO
+[17-Oct-2025 23:16:22 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[17-Oct-2025 23:16:22 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:16:22 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[17-Oct-2025 23:16:22 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 139
+[17-Oct-2025 23:16:22 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:16:22 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_VERIFICADO
+[17-Oct-2025 23:20:44 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:20:44 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:21:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:21:22 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:21:32 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:22:15 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:22:15 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:22:20 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:24:11 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:24:12 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:05 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:05 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:07 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:07 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[17-Oct-2025 23:39:07 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 23:39:07 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[17-Oct-2025 23:39:07 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[17-Oct-2025 23:39:07 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[17-Oct-2025 23:39:09 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:09 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[17-Oct-2025 23:39:09 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 23:39:09 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[17-Oct-2025 23:39:09 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[17-Oct-2025 23:39:09 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[17-Oct-2025 23:39:10 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:10 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[17-Oct-2025 23:39:10 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 23:39:10 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[17-Oct-2025 23:39:10 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[17-Oct-2025 23:39:10 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[17-Oct-2025 23:39:11 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:39:11 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[17-Oct-2025 23:39:11 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 23:39:11 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[17-Oct-2025 23:39:11 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[17-Oct-2025 23:39:11 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[17-Oct-2025 23:59:52 America/Tegucigalpa] Conexión exitosa
+[17-Oct-2025 23:59:52 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[17-Oct-2025 23:59:52 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[17-Oct-2025 23:59:52 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[17-Oct-2025 23:59:52 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[17-Oct-2025 23:59:52 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[18-Oct-2025 00:01:06 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:01:07 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[18-Oct-2025 00:01:07 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[18-Oct-2025 00:01:07 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[18-Oct-2025 00:01:07 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[18-Oct-2025 00:01:07 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[18-Oct-2025 00:01:09 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:01:09 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[18-Oct-2025 00:01:09 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[18-Oct-2025 00:01:09 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[18-Oct-2025 00:01:09 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[18-Oct-2025 00:01:09 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[18-Oct-2025 00:01:11 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:01:11 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[18-Oct-2025 00:01:11 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[18-Oct-2025 00:01:11 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[18-Oct-2025 00:01:11 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[18-Oct-2025 00:01:11 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[18-Oct-2025 00:03:02 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:03:02 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[18-Oct-2025 00:03:02 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[18-Oct-2025 00:03:02 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[18-Oct-2025 00:03:02 America/Tegucigalpa] DEBUG userController - Total usuarios: 7
+[18-Oct-2025 00:03:02 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 7
+    [NUMERO_IDENTIDAD] => 32352225255
+    [USUARIO] => ELMER
+    [NOMBRE_USUARIO] => ELMER VALLADARES
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_c
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-17 23:22:15
+    [FECHA_VENCIMIENTO] => 2026-10-12
+    [CORREO_ELECTRONICO] => elmer@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => ••••••••
+)
+
+[18-Oct-2025 00:22:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:22:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:08 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:37:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:08 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:37:08 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 142
+[18-Oct-2025 00:37:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:08 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denisunah1206@gmail.com
+[18-Oct-2025 00:37:11 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denisunah1206@gmail.com
+[18-Oct-2025 00:37:11 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:11 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_INICIADO
+[18-Oct-2025 00:37:40 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:37:40 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:40 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:37:40 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 145
+[18-Oct-2025 00:37:40 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:40 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 6, Acción: 2FA_VERIFICADO
+[18-Oct-2025 00:37:49 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:37:49 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:38:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:38:21 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 147
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: PEDRO, Método: correo
+[18-Oct-2025 00:38:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: PEDRO
+[18-Oct-2025 00:38:21 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: PEDRO
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[18-Oct-2025 00:38:21 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:38:40 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:38:40 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 148
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: USER, Método: correo
+[18-Oct-2025 00:38:40 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: USER
+[18-Oct-2025 00:38:40 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: USER
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 📧 CORREO: denisunah1206@gmail.com
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 2
+            [USUARIO] => USER
+            [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+            [CORREO_ELECTRONICO] => denisunah1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔐 Contraseña generada: q%2!eAjK&3 - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA USER: q%2!eAjK&3
+[18-Oct-2025 00:38:40 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: USER
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: q%2!eAjK&3
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denisunah1206@gmail.com
+    [NOMBRE_USUARIO] => Nuevo Usuario del Sistema
+    [FECHA_EXPIRACION] => 2025-10-19 00:38:40
+)
+
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denisunah1206@gmail.com
+[18-Oct-2025 00:38:40 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 00:38:40 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 00:38:43 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denisunah1206@gmail.com
+[18-Oct-2025 00:38:43 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:43 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 00:38:43 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:38:43 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 2, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 00:39:29 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:39:29 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:39:29 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:39:29 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 152
+[18-Oct-2025 00:39:29 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:00 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:40:00 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:00 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:40:00 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 153
+[18-Oct-2025 00:40:00 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:08 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:40:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:08 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:40:08 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 154
+[18-Oct-2025 00:40:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:53 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:40:53 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:53 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:40:53 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 155
+[18-Oct-2025 00:40:54 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:54 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:40:54 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: 
+[18-Oct-2025 00:40:54 America/Tegucigalpa] ❌ ERROR ENVIANDO CÓDIGO 2FA: Invalid address:  (to): 
+[18-Oct-2025 00:41:21 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:41:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:41:21 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:41:21 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 157
+[18-Oct-2025 00:41:21 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:41:39 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:41:39 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 158
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: ELMER, Método: correo
+[18-Oct-2025 00:41:39 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: ELMER
+[18-Oct-2025 00:41:39 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: ELMER
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 📧 CORREO: elmer@gmail.com
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[18-Oct-2025 00:41:39 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[18-Oct-2025 00:42:33 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:42:33 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:42:33 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:42:33 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 159
+[18-Oct-2025 00:42:33 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:42:33 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:42:33 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: moya@gmail.com
+[18-Oct-2025 00:42:36 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: moya@gmail.com
+[18-Oct-2025 00:42:36 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:42:36 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 4, Acción: 2FA_INICIADO
+[18-Oct-2025 00:52:19 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:52:19 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:19 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:52:19 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 162
+[18-Oct-2025 00:52:19 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:52:51 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:52:51 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 163
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[18-Oct-2025 00:52:51 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[18-Oct-2025 00:52:51 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔐 Contraseña generada: 0Ml1Tw$7Mc - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: 0Ml1Tw$7Mc
+[18-Oct-2025 00:52:51 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 0Ml1Tw$7Mc
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-19 00:52:51
+)
+
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[18-Oct-2025 00:52:51 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 00:52:51 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 00:52:53 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[18-Oct-2025 00:52:53 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:53 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 00:52:53 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:52:53 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 00:53:27 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:53:27 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:53:27 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:53:27 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 167
+[18-Oct-2025 00:53:27 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:53:27 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:53:27 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[18-Oct-2025 00:53:30 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[18-Oct-2025 00:53:30 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:53:30 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: 2FA_INICIADO
+[18-Oct-2025 00:54:02 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:54:02 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:54:02 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:54:03 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 170
+[18-Oct-2025 00:54:03 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:54:03 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: 2FA_VERIFICADO
+[18-Oct-2025 00:54:11 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:54:11 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:54:27 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:55:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:55:08 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:57:58 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:57:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:57:58 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:57:58 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 173
+[18-Oct-2025 00:57:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:57:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:57:58 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[18-Oct-2025 00:58:01 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[18-Oct-2025 00:58:01 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:58:01 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_INICIADO
+[18-Oct-2025 00:58:22 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:58:22 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:58:22 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:58:22 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 176
+[18-Oct-2025 00:58:22 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[18-Oct-2025 00:58:24 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[18-Oct-2025 00:58:24 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:58:24 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_REENVIADO
+[18-Oct-2025 00:58:47 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 00:58:47 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:58:47 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 00:58:47 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 178
+[18-Oct-2025 00:58:47 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 00:58:47 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_VERIFICADO
+[18-Oct-2025 01:00:57 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:00:57 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:00:57 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:00:57 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 180
+[18-Oct-2025 01:00:57 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:01:18 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:01:18 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:01:18 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:01:18 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 181
+[18-Oct-2025 01:01:18 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:20:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:20:58 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 182
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: JOSE, Método: correo
+[18-Oct-2025 01:20:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: JOSE
+[18-Oct-2025 01:20:58 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: JOSE 
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 📧 CORREO: luisjosen306@gmai.com
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 4
+            [USUARIO] => JOSE 
+            [NOMBRE_USUARIO] => JOSE LUIS
+            [CORREO_ELECTRONICO] => luisjosen306@gmai.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔐 Contraseña generada: VCm*4z3f7@ - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA JOSE: VCm*4z3f7@
+[18-Oct-2025 01:20:58 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: JOSE
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: VCm*4z3f7@
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => luisjosen306@gmai.com
+    [NOMBRE_USUARIO] => JOSE LUIS
+    [FECHA_EXPIRACION] => 2025-10-19 01:20:58
+)
+
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: luisjosen306@gmai.com
+[18-Oct-2025 01:20:58 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 01:20:58 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 01:21:01 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: luisjosen306@gmai.com
+[18-Oct-2025 01:21:01 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:21:01 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 4, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:21:01 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:21:01 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 4, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:32:28 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:32:28 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:32:28 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:32:28 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 186
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: PABLO, Método: correo
+[18-Oct-2025 01:32:29 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: PABLO
+[18-Oct-2025 01:32:29 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: PABLO
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 📧 CORREO: pjreyess@unah.hn
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 8
+            [USUARIO] => PABLO
+            [NOMBRE_USUARIO] => PABLO JOSUE REYES SALGADO
+            [CORREO_ELECTRONICO] => pjreyess@unah.hn
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔐 Contraseña generada: ujTx2*$6pq - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA PABLO: ujTx2*$6pq
+[18-Oct-2025 01:32:29 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: PABLO
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: ujTx2*$6pq
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => pjreyess@unah.hn
+    [NOMBRE_USUARIO] => PABLO JOSUE REYES SALGADO
+    [FECHA_EXPIRACION] => 2025-10-19 01:32:29
+)
+
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: pjreyess@unah.hn
+[18-Oct-2025 01:32:29 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 01:32:29 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 01:32:31 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: pjreyess@unah.hn
+[18-Oct-2025 01:32:31 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:32:31 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 8, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:32:31 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:32:31 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 8, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:35:23 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:35:24 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:35:24 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 190
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: FREDDY, Método: correo
+[18-Oct-2025 01:35:24 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: FREDDY
+[18-Oct-2025 01:35:24 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: FREDDY
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 📧 CORREO: fogomezr@unah.hn
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[18-Oct-2025 01:35:24 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:36:07 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:36:07 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 191
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: FREDDY, Método: correo
+[18-Oct-2025 01:36:07 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: FREDDY
+[18-Oct-2025 01:36:07 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: FREDDY
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 📧 CORREO: fogomezr@unah.hn
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 7
+            [USUARIO] => FREDDY
+            [NOMBRE_USUARIO] => FREDDY ONAN GÓMEZ REYES
+            [CORREO_ELECTRONICO] => fogomezr@unah.hn
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔐 Contraseña generada: dvR4dzbYZ^ - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA FREDDY: dvR4dzbYZ^
+[18-Oct-2025 01:36:07 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: FREDDY
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: dvR4dzbYZ^
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => fogomezr@unah.hn
+    [NOMBRE_USUARIO] => FREDDY ONAN GÓMEZ REYES
+    [FECHA_EXPIRACION] => 2025-10-19 01:36:07
+)
+
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: fogomezr@unah.hn
+[18-Oct-2025 01:36:07 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 01:36:07 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 01:36:10 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: fogomezr@unah.hn
+[18-Oct-2025 01:36:10 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:36:10 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 7, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:36:10 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:36:10 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 7, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[18-Oct-2025 01:38:13 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[18-Oct-2025 01:38:13 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 195
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DAMARIS, Método: correo
+[18-Oct-2025 01:38:13 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DAMARIS
+[18-Oct-2025 01:38:13 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DAMARIS
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 📧 CORREO: damaris.osorio@unah.hn
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 5
+            [USUARIO] => DAMARIS
+            [NOMBRE_USUARIO] => DAMARIS JANETH OSORIO SIERRA 
+            [CORREO_ELECTRONICO] => damaris.osorio@unah.hn
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔐 Contraseña generada: 3Qu51jf# - Min: 1, May: 1, Num: 1, Esp: 1
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DAMARIS: 3Qu51jf#
+[18-Oct-2025 01:38:13 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DAMARIS
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: 3Qu51jf#
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => damaris.osorio@unah.hn
+    [NOMBRE_USUARIO] => DAMARIS JANETH OSORIO SIERRA 
+    [FECHA_EXPIRACION] => 2025-10-19 01:38:13
+)
+
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: damaris.osorio@unah.hn
+[18-Oct-2025 01:38:13 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[18-Oct-2025 01:38:13 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[18-Oct-2025 01:38:15 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: damaris.osorio@unah.hn
+[18-Oct-2025 01:38:15 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:38:15 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 5, Acción: RECUPERACION_CORREO_ENVIADA
+[18-Oct-2025 01:38:15 America/Tegucigalpa] Conexión exitosa
+[18-Oct-2025 01:38:15 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 5, Acción: RECUPERACION_CORREO_ENVIADA
+[19-Oct-2025 17:52:53 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 17:52:54 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:52:54 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 17:52:54 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 199
+[19-Oct-2025 17:52:54 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:52:54 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:52:54 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[19-Oct-2025 17:52:58 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[19-Oct-2025 17:52:58 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:52:58 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 1, Acción: 2FA_INICIADO
+[19-Oct-2025 17:53:17 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 17:53:17 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:53:17 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 17:53:17 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 202
+[19-Oct-2025 17:53:17 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:53:17 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 1, Acción: 2FA_VERIFICADO
+[19-Oct-2025 17:54:02 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 17:54:02 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:54:02 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 17:54:02 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 204
+[19-Oct-2025 17:54:02 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 17:54:02 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[19-Oct-2025 17:54:02 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[19-Oct-2025 17:54:02 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[19-Oct-2025 18:29:06 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 18:29:06 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:29:06 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 18:29:06 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 206
+[19-Oct-2025 18:29:06 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:29:06 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[19-Oct-2025 18:29:06 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[19-Oct-2025 18:29:06 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[19-Oct-2025 18:35:55 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 18:35:55 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:35:55 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 18:35:55 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 208
+[19-Oct-2025 18:35:55 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:35:55 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[19-Oct-2025 18:35:55 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[19-Oct-2025 18:35:55 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[19-Oct-2025 18:45:37 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 18:45:37 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:45:37 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 18:45:37 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 210
+[19-Oct-2025 18:45:37 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:45:37 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[19-Oct-2025 18:45:37 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[19-Oct-2025 18:45:38 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[19-Oct-2025 18:48:31 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 18:48:31 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:48:31 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 18:48:31 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 212
+[19-Oct-2025 18:48:31 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 18:48:31 America/Tegucigalpa] 🔧 [DASHBOARD] Cambiando contraseña para usuario: 1
+[19-Oct-2025 18:48:31 America/Tegucigalpa] 📋 [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[19-Oct-2025 18:48:31 America/Tegucigalpa] ✅ [DASHBOARD] Contraseña cambiada exitosamente
+[19-Oct-2025 19:04:41 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 19:04:41 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:04:41 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 19:04:41 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 214
+[19-Oct-2025 19:04:41 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:04:41 America/Tegucigalpa] authModel::verificarUsuario -> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'P_ID_USUARIO' in 'field list'
+[19-Oct-2025 19:04:48 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 19:04:48 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:04:48 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 19:04:48 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 215
+[19-Oct-2025 19:04:48 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:04:48 America/Tegucigalpa] authModel::verificarUsuario -> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'P_ID_USUARIO' in 'field list'
+[19-Oct-2025 19:06:45 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 19:06:45 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:06:45 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 19:06:45 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 216
+[19-Oct-2025 19:06:45 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:06:45 America/Tegucigalpa] authModel::verificarUsuario -> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'P_ID_USUARIO' in 'field list'
+[19-Oct-2025 19:13:24 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 19:13:24 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:24 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 19:13:24 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 217
+[19-Oct-2025 19:13:24 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:24 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:24 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[19-Oct-2025 19:13:27 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[19-Oct-2025 19:13:27 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:27 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 1, Acción: 2FA_INICIADO
+[19-Oct-2025 19:13:49 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[19-Oct-2025 19:13:49 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:49 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[19-Oct-2025 19:13:49 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 220
+[19-Oct-2025 19:13:49 America/Tegucigalpa] Conexión exitosa
+[19-Oct-2025 19:13:49 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 1, Acción: 2FA_VERIFICADO
+[20-Oct-2025 20:16:24 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:16:24 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:16:34 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:16 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:16 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:20 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:20 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:17:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:27:07 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 20:27:07 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:27:07 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 20:27:08 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 223
+[20-Oct-2025 20:27:08 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DEDE, Método: correo
+[20-Oct-2025 20:27:08 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:27:08 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DEDE
+[20-Oct-2025 20:27:08 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DEDE
+[20-Oct-2025 20:27:08 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 20:27:08 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[20-Oct-2025 20:27:08 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[20-Oct-2025 20:28:12 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 20:28:12 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:28:12 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 20:28:12 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 224
+[20-Oct-2025 20:28:12 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DEDE, Método: correo
+[20-Oct-2025 20:28:13 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DEDE
+[20-Oct-2025 20:28:13 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DEDE
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 9
+            [USUARIO] => DEDE
+            [NOMBRE_USUARIO] => DEDE DEDE DEDE
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 0
+        )
+
+)
+
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔐 Contraseña generada: NV$Cl9H7 - Min: 1, May: 1, Num: 1, Esp: 1
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DEDE: NV$Cl9H7
+[20-Oct-2025 20:28:13 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DEDE
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: NV$Cl9H7
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [FECHA_EXPIRACION] => 2025-10-21 20:28:13
+)
+
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[20-Oct-2025 20:28:13 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[20-Oct-2025 20:28:13 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[20-Oct-2025 20:28:15 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[20-Oct-2025 20:28:15 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:28:15 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 20:28:15 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:28:15 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 20:30:45 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 20:30:45 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 228
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DEDE, Método: correo
+[20-Oct-2025 20:30:45 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DEDE
+[20-Oct-2025 20:30:45 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DEDE
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 9
+            [USUARIO] => DEDE
+            [NOMBRE_USUARIO] => DEDE DEDE DEDE
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔐 Contraseña generada: m4X5yDQC$ - Min: 1, May: 1, Num: 1, Esp: 1
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DEDE: m4X5yDQC$
+[20-Oct-2025 20:30:45 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DEDE
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: m4X5yDQC$
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [FECHA_EXPIRACION] => 2025-10-21 20:30:45
+)
+
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[20-Oct-2025 20:30:45 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[20-Oct-2025 20:30:45 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[20-Oct-2025 20:30:47 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[20-Oct-2025 20:30:47 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:30:47 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 20:30:47 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 20:30:47 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 21:31:31 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:31:31 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:31:31 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:31:31 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 232
+[20-Oct-2025 21:31:31 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:31:31 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:31:31 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 21:31:33 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 21:31:33 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:31:33 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_INICIADO
+[20-Oct-2025 21:32:13 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:32:13 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:32:13 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:32:13 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 235
+[20-Oct-2025 21:32:13 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:32:13 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_VERIFICADO
+[20-Oct-2025 21:33:13 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:33:13 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:33:13 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:33:14 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 237
+[20-Oct-2025 21:33:14 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:33:58 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:33:58 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:33:58 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:33:58 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 238
+[20-Oct-2025 21:33:58 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:40:34 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:40:34 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:40:34 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:40:34 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 239
+[20-Oct-2025 21:40:34 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:41:05 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:41:05 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 240
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: ADMIN, Método: correo
+[20-Oct-2025 21:41:05 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: ADMIN
+[20-Oct-2025 21:41:05 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: ADMIN
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Bloqueado
+[20-Oct-2025 21:41:05 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Bloqueado
+)
+
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:42:02 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:42:02 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 241
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DENIS, Método: correo
+[20-Oct-2025 21:42:02 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DENIS
+[20-Oct-2025 21:42:02 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DENIS
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 3
+            [USUARIO] => DENIS
+            [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔐 Contraseña generada: @I1LLFGs - Min: 1, May: 1, Num: 1, Esp: 1
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: @I1LLFGs
+[20-Oct-2025 21:42:02 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DENIS
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: @I1LLFGs
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
+    [FECHA_EXPIRACION] => 2025-10-21 21:42:02
+)
+
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[20-Oct-2025 21:42:02 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[20-Oct-2025 21:42:02 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[20-Oct-2025 21:42:04 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[20-Oct-2025 21:42:04 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:04 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 21:42:04 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:04 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 21:42:30 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:42:30 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:30 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:42:30 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 245
+[20-Oct-2025 21:42:30 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:30 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:30 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 21:42:32 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 21:42:33 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:42:33 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: 2FA_INICIADO
+[20-Oct-2025 21:43:28 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:43:28 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:43:28 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:43:28 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 248
+[20-Oct-2025 21:43:28 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:43:28 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 3, Acción: 2FA_VERIFICADO
+[20-Oct-2025 21:57:38 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:57:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:57:38 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:57:38 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 250
+[20-Oct-2025 21:57:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:57:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:57:38 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 21:57:41 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 21:57:41 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:57:41 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_INICIADO
+[20-Oct-2025 21:58:10 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:58:10 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:10 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:58:10 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 253
+[20-Oct-2025 21:58:10 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:37 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:58:37 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:37 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:58:37 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 254
+[20-Oct-2025 21:58:37 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:37 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:37 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 21:58:40 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 21:58:40 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:40 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_INICIADO
+[20-Oct-2025 21:58:53 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 21:58:53 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:53 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 21:58:53 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 257
+[20-Oct-2025 21:58:53 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 21:58:53 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_VERIFICADO
+[20-Oct-2025 22:55:38 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 22:55:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:55:38 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 22:55:38 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 259
+[20-Oct-2025 22:55:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:55:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:55:38 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 22:55:41 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 22:55:41 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:55:41 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_INICIADO
+[20-Oct-2025 22:56:23 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 22:56:23 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:56:23 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 22:56:23 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 262
+[20-Oct-2025 22:56:23 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:56:23 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_VERIFICADO
+[20-Oct-2025 22:58:28 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:58:28 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:58:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:21 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:21 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:38 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:40 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:40 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[20-Oct-2025 22:59:40 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 10
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DENISS
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_de
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 22:59:21
+    [FECHA_VENCIMIENTO] => 2026-10-15
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[20-Oct-2025 22:59:40 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[20-Oct-2025 22:59:40 America/Tegucigalpa] DEBUG userController - Total usuarios: 10
+[20-Oct-2025 22:59:40 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 10
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DENISS
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_de
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 22:59:21
+    [FECHA_VENCIMIENTO] => 2026-10-15
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[20-Oct-2025 22:59:42 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 22:59:42 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[20-Oct-2025 22:59:42 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 10
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DENISS
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_de
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 22:59:21
+    [FECHA_VENCIMIENTO] => 2026-10-15
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+)
+
+[20-Oct-2025 22:59:42 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[20-Oct-2025 22:59:42 America/Tegucigalpa] DEBUG userController - Total usuarios: 10
+[20-Oct-2025 22:59:42 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 10
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DENISS
+    [NOMBRE_USUARIO] => JORGE JORGE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => 12345A_de
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 22:59:21
+    [FECHA_VENCIMIENTO] => 2026-10-15
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 23:00:45 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 23:00:45 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 265
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DEDE, Método: correo
+[20-Oct-2025 23:00:45 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DEDE
+[20-Oct-2025 23:00:45 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DEDE
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 🔰 ESTADO_USUARIO: Nuevo
+[20-Oct-2025 23:00:45 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 
+    [message] => Usuario no activo. Estado actual: Nuevo
+)
+
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 23:01:55 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 23:01:55 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 266
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🎯 SOLICITUD RECUPERACIÓN - Usuario: DEDE, Método: correo
+[20-Oct-2025 23:01:55 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔍 BUSCANDO USUARIO PARA RECUPERACIÓN: DEDE
+[20-Oct-2025 23:01:55 America/Tegucigalpa] ✅ USUARIO ENCONTRADO: DEDE
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 📧 CORREO: denislopez1206@gmail.com
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔰 ESTADO_USUARIO: ACTIVO
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 📊 RESULTADO verificarUsuarioRecuperacion: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [ID_USUARIO] => 9
+            [USUARIO] => DEDE
+            [NOMBRE_USUARIO] => DEDE DEDE DEDE
+            [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+            [ESTADO_USUARIO] => ACTIVO
+            [RESETEO_CONTRASENA] => 1
+        )
+
+)
+
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔐 Contraseña generada: Jj%6^$ur - Min: 1, May: 1, Num: 1, Esp: 1
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DEDE: Jj%6^$ur
+[20-Oct-2025 23:01:55 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔐 SOLICITANDO RECUPERACIÓN PARA: DEDE
+[20-Oct-2025 23:01:55 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL GENERADA: Jj%6^$ur
+[20-Oct-2025 23:01:56 America/Tegucigalpa] 📊 RESULTADO DEL STORED PROCEDURE: Array
+(
+    [STATUS] => success
+    [MESSAGE] => Contraseña temporal generada exitosamente
+    [CORREO] => denislopez1206@gmail.com
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [FECHA_EXPIRACION] => 2025-10-21 23:01:56
+)
+
+[20-Oct-2025 23:01:56 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: denislopez1206@gmail.com
+[20-Oct-2025 23:01:56 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
+[20-Oct-2025 23:01:56 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
+[20-Oct-2025 23:01:59 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: denislopez1206@gmail.com
+[20-Oct-2025 23:01:59 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:01:59 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 23:01:59 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:01:59 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: RECUPERACION_CORREO_ENVIADA
+[20-Oct-2025 23:03:12 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 23:03:12 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:12 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 23:03:12 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 270
+[20-Oct-2025 23:03:12 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:12 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:13 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: denislopez1206@gmail.com
+[20-Oct-2025 23:03:14 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: denislopez1206@gmail.com
+[20-Oct-2025 23:03:14 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:14 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_INICIADO
+[20-Oct-2025 23:03:43 America/Tegucigalpa] 🎯 AUTH CONTROLLER INICIADO - Método: post
+[20-Oct-2025 23:03:43 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:43 America/Tegucigalpa] 🔧 DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[20-Oct-2025 23:03:43 America/Tegucigalpa] ✅ DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 273
+[20-Oct-2025 23:03:43 America/Tegucigalpa] Conexión exitosa
+[20-Oct-2025 23:03:43 America/Tegucigalpa] 📝 REGISTRADO EN BITÁCORA - Usuario: 9, Acción: 2FA_VERIFICADO
