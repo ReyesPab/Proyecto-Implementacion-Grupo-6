@@ -23,3 +23,16 @@ git checkout master
 git pull origin master
 git checkout nombre-funcionalidad
 git merge master
+
+para cargar tu rama en la rama A TU RAMA 
+git push -u origin Nombre-rama
+
+
+sin el chekout
+1. Cambiar a master y actualizar
+git checkout master
+git pull origin master
+ 2. Fusionar tu rama
+git merge nombre-de-tu-rama
+ 3. Subir la fusión a GitHub
+git push origin master
