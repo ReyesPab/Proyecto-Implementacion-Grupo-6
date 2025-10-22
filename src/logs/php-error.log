@@ -4565,7 +4565,6 @@ Stack trace:
     [CONTRASENA_MOSTRAR] => •••••••••
 )
 
-<<<<<<< HEAD
 [21-Oct-2025 16:23:18 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
 [21-Oct-2025 16:23:18 America/Tegucigalpa] Conexión exitosa
 [21-Oct-2025 16:23:18 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
@@ -4577,49 +4576,10 @@ Stack trace:
 [21-Oct-2025 16:23:18 America/Tegucigalpa]  CORREO: denislopez1206@gmail.com
 [21-Oct-2025 16:23:18 America/Tegucigalpa]  ESTADO_USUARIO: ACTIVO
 [21-Oct-2025 16:23:18 America/Tegucigalpa] RESULTADO verificarUsuarioRecuperacion: Array
-=======
-[21-Oct-2025 17:08:43 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:08:45 America/Tegucigalpa] Error en la conexión a la BD: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
-[21-Oct-2025 17:09:20 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:09:20 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:09:20 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:09:20 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 259
-[21-Oct-2025 17:09:20 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:09:20 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:09:25 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:09:25 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:09:25 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:09:25 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 261
-[21-Oct-2025 17:09:25 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:09:25 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:10:39 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:10:39 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:10:39 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:10:39 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 263
-[21-Oct-2025 17:10:39 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:15 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:11:15 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:15 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:11:15 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 264
-[21-Oct-2025 17:11:15 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:15 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:11:26 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 266
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  SOLICITUD RECUPERACIÓN - Usuario: PABLO, Método: correo
-[21-Oct-2025 17:11:26 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  BUSCANDO USUARIO PARA RECUPERACIÓN: PABLO
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  USUARIO ENCONTRADO: PABLO
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  CORREO: lobjon2004@gmail.com
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  ESTADO_USUARIO: ACTIVO
-[21-Oct-2025 17:11:26 America/Tegucigalpa] RESULTADO verificarUsuarioRecuperacion: Array
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 (
     [success] => 1
     [user] => Array
         (
-<<<<<<< HEAD
             [ID_USUARIO] => 10
             [USUARIO] => DENISS
             [NOMBRE_USUARIO] => JORGE JORGE
@@ -4750,19 +4710,12 @@ Stack trace:
             [USUARIO] => DENIS
             [NOMBRE_USUARIO] => DENIS IRWIN LOPEZ
             [CORREO_ELECTRONICO] => denislopez1206@gmail.com
-=======
-            [ID_USUARIO] => 8
-            [USUARIO] => PABLO
-            [NOMBRE_USUARIO] => PABLO JOSUE REYES SALGADO
-            [CORREO_ELECTRONICO] => lobjon2004@gmail.com
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
             [ESTADO_USUARIO] => ACTIVO
             [RESETEO_CONTRASENA] => 1
         )
 
 )
 
-<<<<<<< HEAD
 [21-Oct-2025 16:32:02 America/Tegucigalpa] 🔐 Contraseña generada: El9nvW#O68 - Min: 1, May: 1, Num: 1, Esp: 1
 [21-Oct-2025 16:32:02 America/Tegucigalpa] 🔐 CONTRASEÑA TEMPORAL PARA DENIS: El9nvW#O68
 [21-Oct-2025 16:32:02 America/Tegucigalpa] Conexión exitosa
@@ -4931,48 +4884,37 @@ Stack trace:
 [21-Oct-2025 17:11:24 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 380
 [21-Oct-2025 17:11:24 America/Tegucigalpa] Conexión exitosa
 [21-Oct-2025 17:11:24 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 10, Acción: 2FA_VERIFICADO
-=======
-[21-Oct-2025 17:11:26 America/Tegucigalpa] 🔐 Contraseña generada: lFH1@fu9Hx - Min: 1, May: 1, Num: 1, Esp: 1
-[21-Oct-2025 17:11:26 America/Tegucigalpa] CONTRASEÑA TEMPORAL PARA PABLO: lFH1@fu9Hx
-[21-Oct-2025 17:11:26 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  SOLICITANDO RECUPERACIÓN PARA: PABLO
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  CONTRASEÑA TEMPORAL GENERADA: lFH1@fu9Hx
-[21-Oct-2025 17:11:26 America/Tegucigalpa]  RESULTADO DEL STORED PROCEDURE: Array
-(
-    [STATUS] => success
-    [MESSAGE] => Contraseña temporal generada exitosamente
-    [CORREO] => lobjon2004@gmail.com
-    [NOMBRE_USUARIO] => PABLO JOSUE REYES SALGADO
-    [FECHA_EXPIRACION] => 2025-10-22 17:11:26
-)
-
-[21-Oct-2025 17:11:26 America/Tegucigalpa] 🚀 INICIANDO ENVÍO DE CORREO A: lobjon2004@gmail.com
-[21-Oct-2025 17:11:26 America/Tegucigalpa] 🔍 Buscando PHPMailer en: C:\xampp\htdocs\sistema\src\config/../../vendor/phpmailer/PHPMailer.php
-[21-Oct-2025 17:11:26 America/Tegucigalpa] ✅ PHPMailer encontrado, cargando...
-[21-Oct-2025 17:11:28 America/Tegucigalpa] ✅ CORREO ENVIADO EXITOSAMENTE VÍA PHPMailer A: lobjon2004@gmail.com
-[21-Oct-2025 17:11:28 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:28 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: RECUPERACION_CORREO_ENVIADA
-[21-Oct-2025 17:11:28 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:28 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: RECUPERACION_CORREO_ENVIADA
-[21-Oct-2025 17:11:46 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:11:46 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:46 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:11:46 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 270
-[21-Oct-2025 17:11:46 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:46 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:46 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: lobjon2004@gmail.com
-[21-Oct-2025 17:11:48 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: lobjon2004@gmail.com
-[21-Oct-2025 17:11:48 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:48 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_INICIADO
-[21-Oct-2025 17:11:59 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
-[21-Oct-2025 17:11:59 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:59 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
-[21-Oct-2025 17:11:59 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 273
-[21-Oct-2025 17:11:59 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:11:59 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_VERIFICADO
-[21-Oct-2025 17:13:07 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:07 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
-[21-Oct-2025 17:13:07 America/Tegucigalpa] Primer usuario: Array
+[21-Oct-2025 20:37:17 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
+[21-Oct-2025 20:37:20 America/Tegucigalpa] Error en la conexión a la BD: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[21-Oct-2025 20:37:26 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
+[21-Oct-2025 20:37:28 America/Tegucigalpa] Error en la conexión a la BD: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[21-Oct-2025 20:37:44 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
+[21-Oct-2025 20:37:44 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:37:44 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[21-Oct-2025 20:37:44 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 278
+[21-Oct-2025 20:37:44 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:37:44 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:37:44 America/Tegucigalpa] 🚀 ENVIANDO CÓDIGO 2FA A: lobjon2004@gmail.com
+[21-Oct-2025 20:37:47 America/Tegucigalpa] ✅ CÓDIGO 2FA ENVIADO EXITOSAMENTE A: lobjon2004@gmail.com
+[21-Oct-2025 20:37:47 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:37:47 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_INICIADO
+[21-Oct-2025 20:38:08 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
+[21-Oct-2025 20:38:08 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:38:08 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[21-Oct-2025 20:38:08 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 281
+[21-Oct-2025 20:38:08 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:38:08 America/Tegucigalpa]  REGISTRADO EN BITÁCORA - Usuario: 8, Acción: 2FA_VERIFICADO
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  AUTH CONTROLLER INICIADO - Método: post
+[21-Oct-2025 20:39:10 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  DEBUG BITÁCORA - Intentando registrar: Usuario=1, Acción=TEST_DIAGNOSTICO
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  DEBUG BITÁCORA - REGISTRO EXITOSO. ID: 283
+[21-Oct-2025 20:39:10 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  [DASHBOARD] Cambiando contraseña para usuario: 8
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  [DASHBOARD] Usando SP: SP_CAMBIAR_PASSWORD_SIN_ENIE
+[21-Oct-2025 20:39:10 America/Tegucigalpa]  [DASHBOARD] Contraseña cambiada exitosamente
+[21-Oct-2025 20:39:21 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:39:21 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:39:21 America/Tegucigalpa] Primer usuario: Array
 (
     [ID_USUARIO] => 9
     [NUMERO_IDENTIDAD] => 5555555555
@@ -4989,60 +4931,9 @@ Stack trace:
     [PRIMER_INGRESO] => 1
 )
 
-[21-Oct-2025 17:13:07 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
-[21-Oct-2025 17:13:07 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
-[21-Oct-2025 17:13:07 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
-(
-    [ID_USUARIO] => 9
-    [NUMERO_IDENTIDAD] => 5555555555
-    [USUARIO] => DEDE
-    [NOMBRE_USUARIO] => DEDE DEDE DEDE
-    [ESTADO_USUARIO] => Nuevo
-    [CONTRASENA] => m4X5yDQC$
-    [ID_ROL] => 2
-    [ROL] => USUARIO
-    [FECHA_CREACION] => 2025-10-20 20:17:16
-    [FECHA_VENCIMIENTO] => 2025-10-21
-    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
-    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
-    [PRIMER_INGRESO] => 1
-    [CONTRASENA_MOSTRAR] => •••••••••
-)
-
-[21-Oct-2025 17:13:09 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:09 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:19 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:19 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:28 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:28 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:30 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:30 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:32 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:32 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:38 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:38 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:40 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:40 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
-[21-Oct-2025 17:13:40 America/Tegucigalpa] Primer usuario: Array
-(
-    [ID_USUARIO] => 9
-    [NUMERO_IDENTIDAD] => 5555555555
-    [USUARIO] => DEDE
-    [NOMBRE_USUARIO] => DEDE DEDE DEDE
-    [ESTADO_USUARIO] => Nuevo
-    [CONTRASENA] => m4X5yDQC$
-    [ID_ROL] => 2
-    [ROL] => USUARIO
-    [FECHA_CREACION] => 2025-10-20 20:17:16
-    [FECHA_VENCIMIENTO] => 2025-10-21
-    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
-    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
-    [PRIMER_INGRESO] => 1
-)
-
-[21-Oct-2025 17:13:40 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
-[21-Oct-2025 17:13:40 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
-[21-Oct-2025 17:13:40 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+[21-Oct-2025 20:39:21 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:39:21 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:39:21 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
 (
     [ID_USUARIO] => 9
     [NUMERO_IDENTIDAD] => 5555555555
@@ -5060,13 +4951,9 @@ Stack trace:
     [CONTRASENA_MOSTRAR] => •••••••••
 )
 
-[21-Oct-2025 17:13:44 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:13:44 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:14:04 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:14:04 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:14:12 America/Tegucigalpa] Conexión exitosa
-[21-Oct-2025 17:14:12 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
-[21-Oct-2025 17:14:12 America/Tegucigalpa] Primer usuario: Array
+[21-Oct-2025 20:57:10 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:57:10 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:57:10 America/Tegucigalpa] Primer usuario: Array
 (
     [ID_USUARIO] => 9
     [NUMERO_IDENTIDAD] => 5555555555
@@ -5083,9 +4970,9 @@ Stack trace:
     [PRIMER_INGRESO] => 1
 )
 
-[21-Oct-2025 17:14:12 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
-[21-Oct-2025 17:14:12 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
-[21-Oct-2025 17:14:12 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+[21-Oct-2025 20:57:10 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:57:10 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:57:10 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
 (
     [ID_USUARIO] => 9
     [NUMERO_IDENTIDAD] => 5555555555
@@ -5103,28 +4990,722 @@ Stack trace:
     [CONTRASENA_MOSTRAR] => •••••••••
 )
 
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
-[21-Oct-2025 18:16:26 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:16:42 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:16:48 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:17:07 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:17:09 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:17:09 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:17:09 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:17:09 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:18:22 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:19:14 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:19:42 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:21:47 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:24:18 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:24:19 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:24:20 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:25:25 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 18:42:36 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:00:35 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:01:35 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:21:28 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:21:29 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:21:29 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 19:21:29 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
-[21-Oct-2025 20:00:49 America/Tegucigalpa] PHP Parse error:  syntax error, unexpected token "<<" in C:\xampp\htdocs\sistema\src\controllers\authController.php on line 268
+[21-Oct-2025 20:57:27 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:57:27 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:57:27 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:57:27 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:57:27 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:57:27 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:57:28 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:57:28 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:57:28 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:57:28 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:57:28 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:57:28 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:57:30 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:57:30 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:57:30 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:57:30 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:57:30 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:57:30 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:15 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:15 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:15 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:15 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:15 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:15 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:16 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:16 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:17 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:17 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 20:59:20 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:20 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:40 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 20:59:40 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 20:59:40 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 20:59:40 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 20:59:40 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 20:59:40 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 21:04:46 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:04:46 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 21:04:46 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 21:04:46 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 21:04:46 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 21:04:46 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 21:07:01 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:07:01 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 21:07:01 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 21:07:01 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 21:07:01 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 21:07:01 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 21:08:42 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:08:42 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 21:08:42 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 21:08:42 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 21:08:42 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 21:08:42 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 21:12:48 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:12:48 America/Tegucigalpa] DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:
+[21-Oct-2025 21:12:48 America/Tegucigalpa] Primer usuario: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+)
+
+[21-Oct-2025 21:12:48 America/Tegucigalpa] Todos los campos disponibles: ID_USUARIO, NUMERO_IDENTIDAD, USUARIO, NOMBRE_USUARIO, ESTADO_USUARIO, CONTRASENA, ID_ROL, ROL, FECHA_CREACION, FECHA_VENCIMIENTO, CORREO_ELECTRONICO, FECHA_ULTIMA_CONEXION, PRIMER_INGRESO
+[21-Oct-2025 21:12:48 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 21:12:48 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [ID_USUARIO] => 9
+    [NUMERO_IDENTIDAD] => 5555555555
+    [USUARIO] => DEDE
+    [NOMBRE_USUARIO] => DEDE DEDE DEDE
+    [ESTADO_USUARIO] => Nuevo
+    [CONTRASENA] => m4X5yDQC$
+    [ID_ROL] => 2
+    [ROL] => USUARIO
+    [FECHA_CREACION] => 2025-10-20 20:17:16
+    [FECHA_VENCIMIENTO] => 2025-10-21
+    [CORREO_ELECTRONICO] => denislopez1206@gmail.com
+    [FECHA_ULTIMA_CONEXION] => 2025-10-20 21:58:37
+    [PRIMER_INGRESO] => 1
+    [CONTRASENA_MOSTRAR] => •••••••••
+)
+
+[21-Oct-2025 21:29:11 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:29:11 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 21:29:11 America/Tegucigalpa] DEBUG userController - Total usuarios: 9
+[21-Oct-2025 21:29:11 America/Tegucigalpa] DEBUG userController - Primer usuario enviado: Array
+(
+    [id_usuario] => 9
+    [numero_identidad] => 5555555555
+    [usuario] => DEDE
+    [nombre_usuario] => DEDE DEDE DEDE
+    [estado_usuario] => Nuevo
+    [contrasena] => m4X5yDQC$
+    [id_rol] => 2
+    [rol] => USUARIO
+    [fecha_creacion] => 2025-10-20 20:17:16
+    [fecha_vencimiento] => 2025-10-21
+    [correo_electronico] => denislopez1206@gmail.com
+    [fecha_ultima_conexion] => 2025-10-20 21:58:37
+    [primer_ingreso] => 1
+)
+
+[21-Oct-2025 21:31:16 America/Tegucigalpa] PHP Fatal error:  Uncaught Error: Class "userModel" not found in C:\xampp\htdocs\sistema\src\routes\user.php:25
+Stack trace:
+#0 C:\xampp\htdocs\sistema\public\index.php(129): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\sistema\src\routes\user.php on line 25
+[21-Oct-2025 21:39:34 America/Tegucigalpa] Conectando a BD: 127.0.0.1, DB: rosquilleria, User: root
+[21-Oct-2025 21:39:34 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:46:40 America/Tegucigalpa] Conectando a BD: 127.0.0.1, DB: rosquilleria, User: root
+[21-Oct-2025 21:46:40 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:46:40 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 21:47:46 America/Tegucigalpa] Conectando a BD: 127.0.0.1, DB: rosquilleria, User: root
+[21-Oct-2025 21:47:46 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:47:46 America/Tegucigalpa] Conectando a BD: 127.0.0.1, DB: rosquilleria, User: root
+[21-Oct-2025 21:47:46 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:48:16 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:48:16 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 21:53:30 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:53:30 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 21:54:08 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:54:08 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 21:59:25 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 21:59:25 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 22:02:49 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:02:49 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 22:03:30 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:03:30 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:14:02 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:14:02 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 22:18:14 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:18:14 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 22:23:34 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:23:34 America/Tegucigalpa] Usuarios obtenidos: 9
+[21-Oct-2025 22:25:58 America/Tegucigalpa] Conexión exitosa
+[21-Oct-2025 22:25:58 America/Tegucigalpa] Conexión exitosa

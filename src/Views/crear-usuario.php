@@ -207,7 +207,6 @@
         </div>
     </div>
 </main>
-<<<<<<< HEAD
  <!-- Vendor JS Files -->
   <script src="/sistema/src/Views/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/sistema/src/Views/assets/vendor/php-email-form/validate.js"></script>
@@ -221,8 +220,6 @@
   <!-- Main JS File -->
   <script src="/sistema/src/Views/assets/js/main.js"></script>
 
-=======
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     class CrearUsuario {

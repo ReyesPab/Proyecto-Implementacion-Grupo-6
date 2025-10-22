@@ -106,20 +106,28 @@ class userController {
     // Listar usuarios
     // Listar usuarios
 public function listarUsuarios() {
-    if ($this->method != 'get') {
-        echo json_encode(responseHTTP::status405());
-        return;
+    try {
+        $usuarios = userModel::listarUsuarios();
+        
+        if (empty($usuarios)) {
+            echo json_encode([
+                'status' => 200,
+                'data' => ['usuarios' => []],
+                'message' => 'No hay usuarios registrados'
+            ]);
+            return;
+        }
+        
+        echo json_encode([
+            'status' => 200,
+            'data' => ['usuarios' => $usuarios],
+            'message' => 'Usuarios obtenidos correctamente'
+        ]);
+        
+    } catch (\Exception $e) {
+        error_log("userController::listarUsuarios -> " . $e->getMessage());
+        echo json_encode(responseHTTP::status500('Error al obtener usuarios'));
     }
-    
-    $usuarios = userModel::listarUsuarios();
-    
-    // DEBUG TEMPORAL: Ver qué se está enviando al frontend
-    error_log("DEBUG userController - Total usuarios: " . count($usuarios));
-    if (!empty($usuarios)) {
-        error_log("DEBUG userController - Primer usuario enviado: " . print_r($usuarios[0], true));
-    }
-    
-    echo json_encode(responseHTTP::status200('Usuarios obtenidos', ['usuarios' => $usuarios]));
 }
     
     // Obtener usuario específico

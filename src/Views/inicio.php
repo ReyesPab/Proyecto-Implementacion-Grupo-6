@@ -1,7 +1,6 @@
 <?php 
 require_once 'partials/header.php';
 require_once 'partials/sidebar.php';
-<<<<<<< HEAD
  require_once 'partials/footer.php'; 
 ?>
 
@@ -25,19 +24,6 @@ require_once 'partials/sidebar.php';
 
   <!-- Main CSS File -->
   <link href="/sistema/src/Views/assets/css/main.css" rel="stylesheet">
-=======
-?>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Panel de Control - Sistema de Gestión</title>
-  <meta name="description" content="Sistema integral de gestión empresarial">
-
- 
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 
   <style>
     .info-card {
@@ -114,17 +100,10 @@ require_once 'partials/sidebar.php';
         width: 100%;
     }
   </style>
-<<<<<<< HEAD
 
 
 
   
-=======
-</head>
-
-<body>
-  <?php require_once 'partials/sidebar.php'; ?>
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 
   <main id="main" class="main">
     <div class="pagetitle">
@@ -331,7 +310,6 @@ require_once 'partials/sidebar.php';
     </section>
   </main>
 
-<<<<<<< HEAD
 
 
   <!-- Vendor JS Files -->
@@ -347,11 +325,6 @@ require_once 'partials/sidebar.php';
   <!-- Main JS File -->
   <script src="/sistema/src/Views/assets/js/main.js"></script>
 
-=======
-  <?php require_once 'partials/footer.php'; ?>
-
- 
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -528,8 +501,3 @@ require_once 'partials/sidebar.php';
       window.location.href = `/sistema/public/index.php?route=${route}`;
     }
   </script>
-<<<<<<< HEAD
-=======
-</body>
-</html>
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a

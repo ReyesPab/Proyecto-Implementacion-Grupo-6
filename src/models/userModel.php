@@ -67,6 +67,7 @@ class userModel {
     
     // Listar todos los usuarios usando procedimiento almacenado
     // Listar todos los usuarios usando procedimiento almacenado
+// En userModel.php - MODIFICAR el método listarUsuarios
 public static function listarUsuarios() {
     try {
         $con = connectionDB::getConnection();
@@ -77,33 +78,16 @@ public static function listarUsuarios() {
         
         $usuarios = $query->fetchAll(PDO::FETCH_ASSOC);
         
-        // DEBUG: Ver qué campos están llegando
-        error_log("DEBUG - Campos recibidos del SP_OBTENER_USUARIOS:");
-        if (!empty($usuarios)) {
-            error_log("Primer usuario: " . print_r($usuarios[0], true));
-            error_log("Todos los campos disponibles: " . implode(', ', array_keys($usuarios[0])));
-        } else {
-            error_log("No se obtuvieron usuarios");
+        // DEBUG: Log para verificar
+        error_log("Usuarios obtenidos: " . count($usuarios));
+        
+        // Si no hay usuarios, retornar array vacío
+        if (empty($usuarios)) {
+            return [];
         }
         
-        // Si el SP no devuelve ID_USUARIO, obtenerlo manualmente
-        foreach ($usuarios as &$usuario) {
-            // Si no tiene ID_USUARIO, obtenerlo por el nombre de usuario
-            if (!isset($usuario['ID_USUARIO']) && isset($usuario['USUARIO'])) {
-                $idUsuario = self::obtenerIdUsuario($usuario['USUARIO']);
-                if ($idUsuario) {
-                    $usuario['ID_USUARIO'] = $idUsuario;
-                }
-            }
-            
-            // Enmascarar contraseñas
-            if (isset($usuario['CONTRASENA'])) {
-                $usuario['CONTRASENA_MOSTRAR'] = Security::enmascararPassword($usuario['CONTRASENA']);
-            } else {
-                $usuario['CONTRASENA_MOSTRAR'] = '***';
-            }
-        }
-        
+        // ✅ ELIMINAR esta parte que convierte a minúsculas
+        // Mantener los campos exactamente como vienen de la BD
         return $usuarios;
         
     } catch (\PDOException $e) {

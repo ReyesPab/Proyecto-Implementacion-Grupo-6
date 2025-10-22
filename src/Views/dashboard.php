@@ -110,11 +110,7 @@ require_once 'partials/footer.php';
   <!-- Vendor JS Files -->
   <script src="/sistema/src/Views/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/sistema/src/Views/assets/vendor/php-email-form/validate.js"></script>
-<<<<<<< HEAD
   <script src="/sistema/src/Views/assets/vendor/aos/aos.js"></script>
-=======
-  <script src="/gestsistemaion/src/Views/assets/vendor/aos/aos.js"></script>
->>>>>>> ef825815b7045a1dade5c24f4ab55840f675793a
   <script src="/sistema/src/Views/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/sistema/src/Views/assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="/sistema/src/Views/assets/vendor/swiper/swiper-bundle.min.js"></script>

@@ -21,13 +21,13 @@ switch ($caso) {
         }
         break;
         
-    case 'listar':
-        if ($method == 'get') {
-            $user->listarUsuarios();
-        } else {
-            echo json_encode(responseHTTP::status405());
-        }
-        break;
+case 'listar':
+    if ($method == 'get') {
+        $user->listarUsuarios();
+    } else {
+        echo json_encode(responseHTTP::status405());
+    }
+    break;
         
     case 'obtener':
         if ($method == 'get') {
