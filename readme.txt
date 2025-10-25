@@ -35,4 +35,4 @@ git pull origin master
  2. Fusionar tu rama
 git merge nombre-de-tu-rama
  3. Subir la fusión a GitHub
-git push origin master
+git push origin master.....
